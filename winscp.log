@@ -2362,3 +2362,47 @@
 . 2019-03-14 14:20:18.640 DST mode: Unix
 . 2019-03-14 14:20:18.640 --------------------------------------------------------------------------
 . 2019-03-14 14:20:18.640 Looking up host "YOUR IP" for SSH connection
+. 2019-03-14 14:21:18.782 --------------------------------------------------------------------------
+. 2019-03-14 14:21:18.783 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:21:18.783 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:21:18.784 Log level: Normal
+. 2019-03-14 14:21:18.784 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:21:18.784 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:21:18.784 Process ID: 17816
+. 2019-03-14 14:21:18.786 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_15960_45 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:21:18.786 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:21:18.786 Login time: Thursday, March 14, 2019 2:21:18 PM
+. 2019-03-14 14:21:18.787 --------------------------------------------------------------------------
+. 2019-03-14 14:21:18.787 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:21:18.787 Script: open "sftp://SSH USER:***@YOUR IP"
+. 2019-03-14 14:21:18.787 --------------------------------------------------------------------------
+. 2019-03-14 14:21:18.787 Session name: SSH USER@YOUR IP (Ad-Hoc site)
+. 2019-03-14 14:21:18.787 Host name: YOUR IP (Port: 22)
+. 2019-03-14 14:21:18.788 User name: SSH USER (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:21:18.788 Tunnel: No
+. 2019-03-14 14:21:18.788 Transfer Protocol: SFTP
+. 2019-03-14 14:21:18.788 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:21:18.788 Disable Nagle: No
+. 2019-03-14 14:21:18.788 Proxy: None
+. 2019-03-14 14:21:18.788 Send buffer: 262144
+. 2019-03-14 14:21:18.788 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:21:18.789 Bypass authentication: No
+. 2019-03-14 14:21:18.789 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:21:18.789 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:21:18.789 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:21:18.789 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:21:18.789 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:21:18.789 Simple channel: Yes
+. 2019-03-14 14:21:18.789 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:21:18.789 Shell: default
+. 2019-03-14 14:21:18.789 EOL: LF, UTF: Auto
+. 2019-03-14 14:21:18.789 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:21:18.791 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:21:18.791 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:21:18.791 SFTP Server: default
+. 2019-03-14 14:21:18.791 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:21:18.791 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:21:18.791 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:21:18.791 DST mode: Unix
+. 2019-03-14 14:21:18.791 --------------------------------------------------------------------------
+. 2019-03-14 14:21:18.793 Looking up host "YOUR IP" for SSH connection
