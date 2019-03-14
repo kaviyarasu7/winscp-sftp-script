@@ -1,0 +1,2320 @@
+. 2019-03-14 13:59:17.815 --------------------------------------------------------------------------
+. 2019-03-14 13:59:17.815 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 13:59:17.815 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 13:59:17.815 Log level: Normal
+. 2019-03-14 13:59:17.815 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 13:59:17.815 Working directory: C:\WINDOWS\system32
+. 2019-03-14 13:59:17.815 Process ID: 13340
+. 2019-03-14 13:59:17.830 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_3268_684 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 13:59:17.830 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 13:59:17.830 Login time: Thursday, March 14, 2019 1:59:17 PM
+. 2019-03-14 13:59:17.830 --------------------------------------------------------------------------
+. 2019-03-14 13:59:17.830 Script: Retrospectively logging previous script records:
+> 2019-03-14 13:59:17.830 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 13:59:17.830 --------------------------------------------------------------------------
+. 2019-03-14 13:59:17.830 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 13:59:17.830 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 13:59:17.830 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 13:59:17.830 Tunnel: No
+. 2019-03-14 13:59:17.830 Transfer Protocol: SFTP
+. 2019-03-14 13:59:17.830 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 13:59:17.830 Disable Nagle: No
+. 2019-03-14 13:59:17.830 Proxy: None
+. 2019-03-14 13:59:17.830 Send buffer: 262144
+. 2019-03-14 13:59:17.830 SSH protocol version: 2; Compression: No
+. 2019-03-14 13:59:17.830 Bypass authentication: No
+. 2019-03-14 13:59:17.830 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 13:59:17.830 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 13:59:17.830 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 13:59:17.830 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 13:59:17.830 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 13:59:17.830 Simple channel: Yes
+. 2019-03-14 13:59:17.830 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 13:59:17.830 Shell: default
+. 2019-03-14 13:59:17.830 EOL: LF, UTF: Auto
+. 2019-03-14 13:59:17.830 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 13:59:17.830 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 13:59:17.830 SFTP Bugs: Auto,Auto
+. 2019-03-14 13:59:17.830 SFTP Server: default
+. 2019-03-14 13:59:17.830 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 13:59:17.830 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 13:59:17.830 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 13:59:17.830 DST mode: Unix
+. 2019-03-14 13:59:17.830 --------------------------------------------------------------------------
+. 2019-03-14 13:59:17.830 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 13:59:17.830 Connecting to 192.168.1.100 port 22
+. 2019-03-14 13:59:17.830 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 13:59:17.846 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 13:59:17.846 Using SSH protocol version 2
+. 2019-03-14 13:59:17.846 Have a known host key of type ssh-ed25519
+. 2019-03-14 13:59:17.846 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 13:59:19.673 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 13:59:19.689 Host key fingerprint is:
+. 2019-03-14 13:59:19.689 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 13:59:19.689 Host key matches cached key
+. 2019-03-14 13:59:19.689 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 13:59:19.689 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 13:59:19.689 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 13:59:19.689 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 13:59:19.720 Using username "clustrex".
+. 2019-03-14 13:59:19.720 Server offered these authentication methods: publickey,password
+. 2019-03-14 13:59:19.720 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 13:59:19.720 Using stored password.
+. 2019-03-14 13:59:19.720 Sent password
+. 2019-03-14 13:59:19.736 Access granted
+. 2019-03-14 13:59:19.736 Opening session as main channel
+. 2019-03-14 13:59:19.861 Opened main channel
+. 2019-03-14 13:59:19.861 Started a shell/command
+. 2019-03-14 13:59:19.861 --------------------------------------------------------------------------
+. 2019-03-14 13:59:19.861 Using SFTP protocol.
+. 2019-03-14 13:59:19.861 Doing startup conversation with host.
+> 2019-03-14 13:59:19.861 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 13:59:19.861 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 13:59:19.861 SFTP version 3 negotiated.
+. 2019-03-14 13:59:19.861 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 13:59:19.861 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 13:59:19.861 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 13:59:19.861 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 13:59:19.861 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 13:59:19.861 We believe the server has signed timestamps bug
+. 2019-03-14 13:59:19.861 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 13:59:19.861 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 13:59:19.861 Getting current directory name.
+. 2019-03-14 13:59:19.861 Getting real path for '.'
+> 2019-03-14 13:59:19.861 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 13:59:19.861 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 13:59:19.861 Real path is '/home/clustrex'
+. 2019-03-14 13:59:19.861 Startup conversation with host finished.
+< 2019-03-14 13:59:19.861 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 13:59:19.861 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 13:59:19.861 Script: No file matching '*.csv' found.
+. 2019-03-14 13:59:19.876 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 13:59:19.876   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 13:59:19.876   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 13:59:19.876   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 13:59:19.878 Getting real path for '/tmp/'
+> 2019-03-14 13:59:19.878 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 13:59:19.879 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 13:59:19.879 Real path is '/tmp'
+. 2019-03-14 13:59:19.879 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 13:59:19.882 Script: exit
+. 2019-03-14 13:59:19.883 Script: Exit code: 0
+. 2019-03-14 13:59:19.883 Closing connection.
+. 2019-03-14 13:59:19.883 Sending special code: 12
+. 2019-03-14 13:59:19.884 Sent EOF message
+. 2019-03-14 14:00:17.825 --------------------------------------------------------------------------
+. 2019-03-14 14:00:17.826 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:00:17.826 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:00:17.827 Log level: Normal
+. 2019-03-14 14:00:17.827 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:00:17.827 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:00:17.827 Process ID: 11788
+. 2019-03-14 14:00:17.831 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_7616_333 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:00:17.831 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:00:17.832 Login time: Thursday, March 14, 2019 2:00:17 PM
+. 2019-03-14 14:00:17.832 --------------------------------------------------------------------------
+. 2019-03-14 14:00:17.832 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:00:17.832 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:00:17.832 --------------------------------------------------------------------------
+. 2019-03-14 14:00:17.832 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:00:17.832 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:00:17.833 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:00:17.833 Tunnel: No
+. 2019-03-14 14:00:17.833 Transfer Protocol: SFTP
+. 2019-03-14 14:00:17.833 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:00:17.833 Disable Nagle: No
+. 2019-03-14 14:00:17.833 Proxy: None
+. 2019-03-14 14:00:17.833 Send buffer: 262144
+. 2019-03-14 14:00:17.833 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:00:17.833 Bypass authentication: No
+. 2019-03-14 14:00:17.833 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:00:17.833 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:00:17.833 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:00:17.833 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:00:17.833 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:00:17.834 Simple channel: Yes
+. 2019-03-14 14:00:17.834 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:00:17.834 Shell: default
+. 2019-03-14 14:00:17.834 EOL: LF, UTF: Auto
+. 2019-03-14 14:00:17.834 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:00:17.834 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:00:17.834 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:00:17.834 SFTP Server: default
+. 2019-03-14 14:00:17.834 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:00:17.834 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:00:17.834 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:00:17.835 DST mode: Unix
+. 2019-03-14 14:00:17.835 --------------------------------------------------------------------------
+. 2019-03-14 14:00:17.836 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:00:17.836 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:00:17.841 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:00:17.853 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:00:17.853 Using SSH protocol version 2
+. 2019-03-14 14:00:17.854 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:00:17.857 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:00:19.750 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:00:19.766 Host key fingerprint is:
+. 2019-03-14 14:00:19.766 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:00:19.766 Host key matches cached key
+. 2019-03-14 14:00:19.766 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:00:19.766 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:00:19.766 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:00:19.766 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:00:19.797 Using username "clustrex".
+. 2019-03-14 14:00:19.813 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:00:19.813 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:00:19.813 Using stored password.
+. 2019-03-14 14:00:19.813 Sent password
+. 2019-03-14 14:00:19.813 Access granted
+. 2019-03-14 14:00:19.813 Opening session as main channel
+. 2019-03-14 14:00:19.936 Opened main channel
+. 2019-03-14 14:00:19.936 Started a shell/command
+. 2019-03-14 14:00:19.936 --------------------------------------------------------------------------
+. 2019-03-14 14:00:19.936 Using SFTP protocol.
+. 2019-03-14 14:00:19.936 Doing startup conversation with host.
+> 2019-03-14 14:00:19.936 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:00:19.936 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:00:19.936 SFTP version 3 negotiated.
+. 2019-03-14 14:00:19.936 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:00:19.936 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:00:19.936 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:00:19.936 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:00:19.936 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:00:19.936 We believe the server has signed timestamps bug
+. 2019-03-14 14:00:19.936 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:00:19.936 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:00:19.936 Getting current directory name.
+. 2019-03-14 14:00:19.936 Getting real path for '.'
+> 2019-03-14 14:00:19.936 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:00:19.936 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:00:19.936 Real path is '/home/clustrex'
+. 2019-03-14 14:00:19.936 Startup conversation with host finished.
+< 2019-03-14 14:00:19.936 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:00:19.952 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:00:19.952 Script: No file matching '*.csv' found.
+. 2019-03-14 14:00:19.952 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:00:19.952   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:00:19.952   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:00:19.952   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:00:19.952 Getting real path for '/tmp/'
+> 2019-03-14 14:00:19.952 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:00:19.952 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:00:19.952 Real path is '/tmp'
+. 2019-03-14 14:00:19.952 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:00:19.952 Script: exit
+. 2019-03-14 14:00:19.952 Script: Exit code: 0
+. 2019-03-14 14:00:19.952 Closing connection.
+. 2019-03-14 14:00:19.952 Sending special code: 12
+. 2019-03-14 14:00:19.952 Sent EOF message
+. 2019-03-14 14:01:18.619 --------------------------------------------------------------------------
+. 2019-03-14 14:01:18.619 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:01:18.619 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:01:18.620 Log level: Normal
+. 2019-03-14 14:01:18.620 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:01:18.620 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:01:18.620 Process ID: 14160
+. 2019-03-14 14:01:18.622 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_12368_911 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:01:18.622 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:01:18.623 Login time: Thursday, March 14, 2019 2:01:18 PM
+. 2019-03-14 14:01:18.623 --------------------------------------------------------------------------
+. 2019-03-14 14:01:18.623 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:01:18.623 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:01:18.623 --------------------------------------------------------------------------
+. 2019-03-14 14:01:18.623 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:01:18.623 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:01:18.623 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:01:18.623 Tunnel: No
+. 2019-03-14 14:01:18.623 Transfer Protocol: SFTP
+. 2019-03-14 14:01:18.623 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:01:18.624 Disable Nagle: No
+. 2019-03-14 14:01:18.624 Proxy: None
+. 2019-03-14 14:01:18.624 Send buffer: 262144
+. 2019-03-14 14:01:18.624 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:01:18.624 Bypass authentication: No
+. 2019-03-14 14:01:18.624 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:01:18.624 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:01:18.624 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:01:18.624 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:01:18.624 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:01:18.625 Simple channel: Yes
+. 2019-03-14 14:01:18.625 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:01:18.625 Shell: default
+. 2019-03-14 14:01:18.625 EOL: LF, UTF: Auto
+. 2019-03-14 14:01:18.625 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:01:18.625 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:01:18.625 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:01:18.625 SFTP Server: default
+. 2019-03-14 14:01:18.625 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:01:18.625 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:01:18.625 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:01:18.625 DST mode: Unix
+. 2019-03-14 14:01:18.626 --------------------------------------------------------------------------
+. 2019-03-14 14:01:18.626 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:01:18.626 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:01:18.626 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:01:18.642 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:01:18.642 Using SSH protocol version 2
+. 2019-03-14 14:01:18.642 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:01:18.642 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:01:20.339 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:01:20.339 Host key fingerprint is:
+. 2019-03-14 14:01:20.339 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:01:20.339 Host key matches cached key
+. 2019-03-14 14:01:20.339 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:01:20.339 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:01:20.339 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:01:20.339 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:01:20.386 Using username "clustrex".
+. 2019-03-14 14:01:20.386 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:01:20.386 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:01:20.386 Using stored password.
+. 2019-03-14 14:01:20.386 Sent password
+. 2019-03-14 14:01:20.402 Access granted
+. 2019-03-14 14:01:20.402 Opening session as main channel
+. 2019-03-14 14:01:20.511 Opened main channel
+. 2019-03-14 14:01:20.511 Started a shell/command
+. 2019-03-14 14:01:20.511 --------------------------------------------------------------------------
+. 2019-03-14 14:01:20.511 Using SFTP protocol.
+. 2019-03-14 14:01:20.511 Doing startup conversation with host.
+> 2019-03-14 14:01:20.511 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:01:20.511 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:01:20.511 SFTP version 3 negotiated.
+. 2019-03-14 14:01:20.511 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:01:20.511 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:01:20.511 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:01:20.511 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:01:20.511 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:01:20.511 We believe the server has signed timestamps bug
+. 2019-03-14 14:01:20.511 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:01:20.511 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:01:20.511 Getting current directory name.
+. 2019-03-14 14:01:20.511 Getting real path for '.'
+> 2019-03-14 14:01:20.511 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:01:20.511 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:01:20.511 Real path is '/home/clustrex'
+. 2019-03-14 14:01:20.511 Startup conversation with host finished.
+< 2019-03-14 14:01:20.511 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:01:20.527 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:01:20.527 Script: No file matching '*.csv' found.
+. 2019-03-14 14:01:20.527 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:01:20.527   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:01:20.527   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:01:20.527   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:01:20.527 Getting real path for '/tmp/'
+> 2019-03-14 14:01:20.527 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:01:20.527 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:01:20.527 Real path is '/tmp'
+. 2019-03-14 14:01:20.527 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:01:20.527 Script: exit
+. 2019-03-14 14:01:20.527 Script: Exit code: 0
+. 2019-03-14 14:01:20.527 Closing connection.
+. 2019-03-14 14:01:20.527 Sending special code: 12
+. 2019-03-14 14:01:20.527 Sent EOF message
+. 2019-03-14 14:02:17.850 --------------------------------------------------------------------------
+. 2019-03-14 14:02:17.850 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:02:17.850 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:02:17.850 Log level: Normal
+. 2019-03-14 14:02:17.850 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:02:17.850 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:02:17.850 Process ID: 19916
+. 2019-03-14 14:02:17.850 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_18148_561 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:02:17.850 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:02:17.850 Login time: Thursday, March 14, 2019 2:02:17 PM
+. 2019-03-14 14:02:17.850 --------------------------------------------------------------------------
+. 2019-03-14 14:02:17.850 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:02:17.850 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:02:17.850 --------------------------------------------------------------------------
+. 2019-03-14 14:02:17.850 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:02:17.850 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:02:17.850 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:02:17.850 Tunnel: No
+. 2019-03-14 14:02:17.850 Transfer Protocol: SFTP
+. 2019-03-14 14:02:17.850 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:02:17.850 Disable Nagle: No
+. 2019-03-14 14:02:17.850 Proxy: None
+. 2019-03-14 14:02:17.850 Send buffer: 262144
+. 2019-03-14 14:02:17.850 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:02:17.850 Bypass authentication: No
+. 2019-03-14 14:02:17.850 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:02:17.850 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:02:17.850 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:02:17.850 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:02:17.850 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:02:17.850 Simple channel: Yes
+. 2019-03-14 14:02:17.850 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:02:17.850 Shell: default
+. 2019-03-14 14:02:17.850 EOL: LF, UTF: Auto
+. 2019-03-14 14:02:17.850 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:02:17.850 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:02:17.850 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:02:17.850 SFTP Server: default
+. 2019-03-14 14:02:17.850 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:02:17.850 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:02:17.850 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:02:17.850 DST mode: Unix
+. 2019-03-14 14:02:17.850 --------------------------------------------------------------------------
+. 2019-03-14 14:02:17.850 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:02:17.850 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:02:17.865 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:02:17.872 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:02:17.872 Using SSH protocol version 2
+. 2019-03-14 14:02:17.873 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:02:17.877 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:02:20.053 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:02:20.080 Host key fingerprint is:
+. 2019-03-14 14:02:20.081 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:02:20.083 Host key matches cached key
+. 2019-03-14 14:02:20.084 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:02:20.085 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:02:20.085 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:02:20.085 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:02:20.122 Using username "clustrex".
+. 2019-03-14 14:02:20.122 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:02:20.122 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:02:20.122 Using stored password.
+. 2019-03-14 14:02:20.122 Sent password
+. 2019-03-14 14:02:20.138 Access granted
+. 2019-03-14 14:02:20.138 Opening session as main channel
+. 2019-03-14 14:02:20.263 Opened main channel
+. 2019-03-14 14:02:20.263 Started a shell/command
+. 2019-03-14 14:02:20.263 --------------------------------------------------------------------------
+. 2019-03-14 14:02:20.263 Using SFTP protocol.
+. 2019-03-14 14:02:20.263 Doing startup conversation with host.
+> 2019-03-14 14:02:20.263 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:02:20.263 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:02:20.263 SFTP version 3 negotiated.
+. 2019-03-14 14:02:20.263 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:02:20.263 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:02:20.263 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:02:20.263 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:02:20.263 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:02:20.263 We believe the server has signed timestamps bug
+. 2019-03-14 14:02:20.263 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:02:20.263 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:02:20.263 Getting current directory name.
+. 2019-03-14 14:02:20.263 Getting real path for '.'
+> 2019-03-14 14:02:20.263 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:02:20.263 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:02:20.263 Real path is '/home/clustrex'
+. 2019-03-14 14:02:20.263 Startup conversation with host finished.
+< 2019-03-14 14:02:20.263 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:02:20.263 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:02:20.263 Script: No file matching '*.csv' found.
+. 2019-03-14 14:02:20.263 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:02:20.278   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:02:20.278   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:02:20.278   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:02:20.278 Getting real path for '/tmp/'
+> 2019-03-14 14:02:20.278 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:02:20.278 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:02:20.278 Real path is '/tmp'
+. 2019-03-14 14:02:20.278 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:02:20.278 Script: exit
+. 2019-03-14 14:02:20.278 Script: Exit code: 0
+. 2019-03-14 14:02:20.278 Closing connection.
+. 2019-03-14 14:02:20.278 Sending special code: 12
+. 2019-03-14 14:02:20.278 Sent EOF message
+. 2019-03-14 14:03:18.380 --------------------------------------------------------------------------
+. 2019-03-14 14:03:18.380 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:03:18.380 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:03:18.380 Log level: Normal
+. 2019-03-14 14:03:18.380 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:03:18.380 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:03:18.380 Process ID: 18480
+. 2019-03-14 14:03:18.380 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_7548_733 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:03:18.380 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:03:18.380 Login time: Thursday, March 14, 2019 2:03:18 PM
+. 2019-03-14 14:03:18.380 --------------------------------------------------------------------------
+. 2019-03-14 14:03:18.380 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:03:18.380 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:03:18.380 --------------------------------------------------------------------------
+. 2019-03-14 14:03:18.380 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:03:18.380 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:03:18.380 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:03:18.380 Tunnel: No
+. 2019-03-14 14:03:18.380 Transfer Protocol: SFTP
+. 2019-03-14 14:03:18.380 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:03:18.380 Disable Nagle: No
+. 2019-03-14 14:03:18.380 Proxy: None
+. 2019-03-14 14:03:18.380 Send buffer: 262144
+. 2019-03-14 14:03:18.380 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:03:18.380 Bypass authentication: No
+. 2019-03-14 14:03:18.380 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:03:18.380 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:03:18.380 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:03:18.380 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:03:18.380 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:03:18.380 Simple channel: Yes
+. 2019-03-14 14:03:18.380 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:03:18.380 Shell: default
+. 2019-03-14 14:03:18.380 EOL: LF, UTF: Auto
+. 2019-03-14 14:03:18.380 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:03:18.380 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:03:18.380 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:03:18.380 SFTP Server: default
+. 2019-03-14 14:03:18.380 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:03:18.380 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:03:18.380 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:03:18.380 DST mode: Unix
+. 2019-03-14 14:03:18.380 --------------------------------------------------------------------------
+. 2019-03-14 14:03:18.380 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:03:18.380 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:03:18.395 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:03:18.395 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:03:18.395 Using SSH protocol version 2
+. 2019-03-14 14:03:18.395 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:03:18.395 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:03:20.072 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:03:20.072 Host key fingerprint is:
+. 2019-03-14 14:03:20.072 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:03:20.072 Host key matches cached key
+. 2019-03-14 14:03:20.072 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:03:20.072 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:03:20.072 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:03:20.072 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:03:20.119 Using username "clustrex".
+. 2019-03-14 14:03:20.119 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:03:20.119 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:03:20.119 Using stored password.
+. 2019-03-14 14:03:20.119 Sent password
+. 2019-03-14 14:03:20.135 Access granted
+. 2019-03-14 14:03:20.135 Opening session as main channel
+. 2019-03-14 14:03:20.244 Opened main channel
+. 2019-03-14 14:03:20.244 Started a shell/command
+. 2019-03-14 14:03:20.244 --------------------------------------------------------------------------
+. 2019-03-14 14:03:20.244 Using SFTP protocol.
+. 2019-03-14 14:03:20.244 Doing startup conversation with host.
+> 2019-03-14 14:03:20.244 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:03:20.244 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:03:20.244 SFTP version 3 negotiated.
+. 2019-03-14 14:03:20.244 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:03:20.244 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:03:20.244 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:03:20.244 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:03:20.244 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:03:20.244 We believe the server has signed timestamps bug
+. 2019-03-14 14:03:20.244 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:03:20.244 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:03:20.244 Getting current directory name.
+. 2019-03-14 14:03:20.244 Getting real path for '.'
+> 2019-03-14 14:03:20.244 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:03:20.244 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:03:20.244 Real path is '/home/clustrex'
+. 2019-03-14 14:03:20.244 Startup conversation with host finished.
+< 2019-03-14 14:03:20.244 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:03:20.244 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:03:20.244 Script: No file matching '*.csv' found.
+. 2019-03-14 14:03:20.244 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:03:20.244   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:03:20.244   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:03:20.244   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:03:20.244 Getting real path for '/tmp/'
+> 2019-03-14 14:03:20.244 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:03:20.244 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:03:20.260 Real path is '/tmp'
+. 2019-03-14 14:03:20.260 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:03:20.260 Script: exit
+. 2019-03-14 14:03:20.260 Script: Exit code: 0
+. 2019-03-14 14:03:20.260 Closing connection.
+. 2019-03-14 14:03:20.260 Sending special code: 12
+. 2019-03-14 14:03:20.260 Sent EOF message
+. 2019-03-14 14:04:17.931 --------------------------------------------------------------------------
+. 2019-03-14 14:04:17.932 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:04:17.932 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:04:17.933 Log level: Normal
+. 2019-03-14 14:04:17.933 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:04:17.933 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:04:17.933 Process ID: 20304
+. 2019-03-14 14:04:17.936 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_5168_383 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:04:17.936 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:04:17.937 Login time: Thursday, March 14, 2019 2:04:17 PM
+. 2019-03-14 14:04:17.937 --------------------------------------------------------------------------
+. 2019-03-14 14:04:17.937 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:04:17.937 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:04:17.937 --------------------------------------------------------------------------
+. 2019-03-14 14:04:17.937 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:04:17.938 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:04:17.938 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:04:17.938 Tunnel: No
+. 2019-03-14 14:04:17.938 Transfer Protocol: SFTP
+. 2019-03-14 14:04:17.938 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:04:17.938 Disable Nagle: No
+. 2019-03-14 14:04:17.938 Proxy: None
+. 2019-03-14 14:04:17.938 Send buffer: 262144
+. 2019-03-14 14:04:17.938 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:04:17.938 Bypass authentication: No
+. 2019-03-14 14:04:17.938 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:04:17.939 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:04:17.939 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:04:17.939 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:04:17.939 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:04:17.939 Simple channel: Yes
+. 2019-03-14 14:04:17.939 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:04:17.939 Shell: default
+. 2019-03-14 14:04:17.939 EOL: LF, UTF: Auto
+. 2019-03-14 14:04:17.939 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:04:17.939 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:04:17.939 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:04:17.940 SFTP Server: default
+. 2019-03-14 14:04:17.940 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:04:17.940 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:04:17.940 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:04:17.940 DST mode: Unix
+. 2019-03-14 14:04:17.940 --------------------------------------------------------------------------
+. 2019-03-14 14:04:17.942 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:04:17.942 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:04:17.947 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:04:17.951 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:04:17.951 Using SSH protocol version 2
+. 2019-03-14 14:04:17.951 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:04:17.951 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:04:19.982 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:04:19.997 Host key fingerprint is:
+. 2019-03-14 14:04:19.997 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:04:19.997 Host key matches cached key
+. 2019-03-14 14:04:19.997 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:04:19.997 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:04:19.997 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:04:19.997 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:04:20.044 Using username "clustrex".
+. 2019-03-14 14:04:20.044 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:04:20.044 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:04:20.044 Using stored password.
+. 2019-03-14 14:04:20.044 Sent password
+. 2019-03-14 14:04:20.044 Access granted
+. 2019-03-14 14:04:20.044 Opening session as main channel
+. 2019-03-14 14:04:20.184 Opened main channel
+. 2019-03-14 14:04:20.184 Started a shell/command
+. 2019-03-14 14:04:20.184 --------------------------------------------------------------------------
+. 2019-03-14 14:04:20.184 Using SFTP protocol.
+. 2019-03-14 14:04:20.184 Doing startup conversation with host.
+> 2019-03-14 14:04:20.184 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:04:20.184 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:04:20.184 SFTP version 3 negotiated.
+. 2019-03-14 14:04:20.184 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:04:20.184 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:04:20.184 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:04:20.184 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:04:20.184 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:04:20.184 We believe the server has signed timestamps bug
+. 2019-03-14 14:04:20.184 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:04:20.184 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:04:20.184 Getting current directory name.
+. 2019-03-14 14:04:20.184 Getting real path for '.'
+> 2019-03-14 14:04:20.184 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:04:20.184 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:04:20.184 Real path is '/home/clustrex'
+. 2019-03-14 14:04:20.184 Startup conversation with host finished.
+< 2019-03-14 14:04:20.184 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:04:20.184 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:04:20.184 Script: No file matching '*.csv' found.
+. 2019-03-14 14:04:20.199 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:04:20.199   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:04:20.199   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:04:20.199   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:04:20.199 Getting real path for '/tmp/'
+> 2019-03-14 14:04:20.199 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:04:20.199 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:04:20.199 Real path is '/tmp'
+. 2019-03-14 14:04:20.199 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:04:20.199 Script: exit
+. 2019-03-14 14:04:20.199 Script: Exit code: 0
+. 2019-03-14 14:04:20.199 Closing connection.
+. 2019-03-14 14:04:20.199 Sending special code: 12
+. 2019-03-14 14:04:20.199 Sent EOF message
+. 2019-03-14 14:05:19.083 --------------------------------------------------------------------------
+. 2019-03-14 14:05:19.085 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:05:19.085 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:05:19.085 Log level: Normal
+. 2019-03-14 14:05:19.085 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:05:19.085 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:05:19.085 Process ID: 6788
+. 2019-03-14 14:05:19.088 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_3412_33 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:05:19.088 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:05:19.089 Login time: Thursday, March 14, 2019 2:05:19 PM
+. 2019-03-14 14:05:19.089 --------------------------------------------------------------------------
+. 2019-03-14 14:05:19.089 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:05:19.089 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:05:19.089 --------------------------------------------------------------------------
+. 2019-03-14 14:05:19.089 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:05:19.089 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:05:19.089 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:05:19.090 Tunnel: No
+. 2019-03-14 14:05:19.090 Transfer Protocol: SFTP
+. 2019-03-14 14:05:19.090 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:05:19.090 Disable Nagle: No
+. 2019-03-14 14:05:19.090 Proxy: None
+. 2019-03-14 14:05:19.090 Send buffer: 262144
+. 2019-03-14 14:05:19.090 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:05:19.090 Bypass authentication: No
+. 2019-03-14 14:05:19.090 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:05:19.091 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:05:19.091 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:05:19.091 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:05:19.091 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:05:19.091 Simple channel: Yes
+. 2019-03-14 14:05:19.091 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:05:19.091 Shell: default
+. 2019-03-14 14:05:19.091 EOL: LF, UTF: Auto
+. 2019-03-14 14:05:19.091 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:05:19.091 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:05:19.092 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:05:19.092 SFTP Server: default
+. 2019-03-14 14:05:19.092 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:05:19.092 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:05:19.092 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:05:19.092 DST mode: Unix
+. 2019-03-14 14:05:19.092 --------------------------------------------------------------------------
+. 2019-03-14 14:05:19.095 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:05:19.095 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:05:19.102 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:05:19.112 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:05:19.116 Using SSH protocol version 2
+. 2019-03-14 14:05:19.117 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:05:19.122 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:05:21.849 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:05:21.863 Host key fingerprint is:
+. 2019-03-14 14:05:21.863 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:05:21.865 Host key matches cached key
+. 2019-03-14 14:05:21.866 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:05:21.867 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:05:21.867 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:05:21.867 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:05:21.897 Using username "clustrex".
+. 2019-03-14 14:05:21.897 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:05:21.897 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:05:21.897 Using stored password.
+. 2019-03-14 14:05:21.897 Sent password
+. 2019-03-14 14:05:21.919 Access granted
+. 2019-03-14 14:05:21.919 Opening session as main channel
+. 2019-03-14 14:05:22.156 Opened main channel
+. 2019-03-14 14:05:22.156 Started a shell/command
+. 2019-03-14 14:05:22.156 --------------------------------------------------------------------------
+. 2019-03-14 14:05:22.156 Using SFTP protocol.
+. 2019-03-14 14:05:22.156 Doing startup conversation with host.
+> 2019-03-14 14:05:22.156 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:05:22.156 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:05:22.156 SFTP version 3 negotiated.
+. 2019-03-14 14:05:22.156 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:05:22.156 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:05:22.156 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:05:22.156 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:05:22.156 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:05:22.156 We believe the server has signed timestamps bug
+. 2019-03-14 14:05:22.156 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:05:22.156 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:05:22.156 Getting current directory name.
+. 2019-03-14 14:05:22.156 Getting real path for '.'
+> 2019-03-14 14:05:22.156 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:05:22.156 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:05:22.156 Real path is '/home/clustrex'
+. 2019-03-14 14:05:22.156 Startup conversation with host finished.
+< 2019-03-14 14:05:22.156 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:05:22.156 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:05:22.156 Script: No file matching '*.csv' found.
+. 2019-03-14 14:05:22.172 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:05:22.172   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:05:22.172   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:05:22.172   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:05:22.172 Getting real path for '/tmp/'
+> 2019-03-14 14:05:22.172 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:05:22.172 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:05:22.172 Real path is '/tmp'
+. 2019-03-14 14:05:22.172 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:05:22.172 Script: exit
+. 2019-03-14 14:05:22.172 Script: Exit code: 0
+. 2019-03-14 14:05:22.172 Closing connection.
+. 2019-03-14 14:05:22.172 Sending special code: 12
+. 2019-03-14 14:05:22.172 Sent EOF message
+. 2019-03-14 14:06:18.396 --------------------------------------------------------------------------
+. 2019-03-14 14:06:18.396 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:06:18.396 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:06:18.396 Log level: Normal
+. 2019-03-14 14:06:18.396 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:06:18.396 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:06:18.396 Process ID: 13268
+. 2019-03-14 14:06:18.396 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_4952_206 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:06:18.396 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:06:18.396 Login time: Thursday, March 14, 2019 2:06:18 PM
+. 2019-03-14 14:06:18.396 --------------------------------------------------------------------------
+. 2019-03-14 14:06:18.396 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:06:18.396 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:06:18.396 --------------------------------------------------------------------------
+. 2019-03-14 14:06:18.396 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:06:18.396 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:06:18.396 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:06:18.396 Tunnel: No
+. 2019-03-14 14:06:18.396 Transfer Protocol: SFTP
+. 2019-03-14 14:06:18.396 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:06:18.396 Disable Nagle: No
+. 2019-03-14 14:06:18.396 Proxy: None
+. 2019-03-14 14:06:18.396 Send buffer: 262144
+. 2019-03-14 14:06:18.396 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:06:18.396 Bypass authentication: No
+. 2019-03-14 14:06:18.396 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:06:18.396 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:06:18.396 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:06:18.396 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:06:18.396 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:06:18.396 Simple channel: Yes
+. 2019-03-14 14:06:18.396 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:06:18.396 Shell: default
+. 2019-03-14 14:06:18.396 EOL: LF, UTF: Auto
+. 2019-03-14 14:06:18.396 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:06:18.396 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:06:18.396 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:06:18.396 SFTP Server: default
+. 2019-03-14 14:06:18.396 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:06:18.396 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:06:18.396 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:06:18.396 DST mode: Unix
+. 2019-03-14 14:06:18.396 --------------------------------------------------------------------------
+. 2019-03-14 14:06:18.396 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:06:18.396 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:06:18.412 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:06:18.412 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:06:18.412 Using SSH protocol version 2
+. 2019-03-14 14:06:18.412 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:06:18.412 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:06:20.321 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:06:20.337 Host key fingerprint is:
+. 2019-03-14 14:06:20.337 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:06:20.337 Host key matches cached key
+. 2019-03-14 14:06:20.337 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:06:20.337 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:06:20.337 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:06:20.337 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:06:20.378 Using username "clustrex".
+. 2019-03-14 14:06:20.381 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:06:20.381 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:06:20.381 Using stored password.
+. 2019-03-14 14:06:20.382 Sent password
+. 2019-03-14 14:06:20.393 Access granted
+. 2019-03-14 14:06:20.394 Opening session as main channel
+. 2019-03-14 14:06:20.520 Opened main channel
+. 2019-03-14 14:06:20.525 Started a shell/command
+. 2019-03-14 14:06:20.525 --------------------------------------------------------------------------
+. 2019-03-14 14:06:20.526 Using SFTP protocol.
+. 2019-03-14 14:06:20.527 Doing startup conversation with host.
+> 2019-03-14 14:06:20.528 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:06:20.529 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:06:20.530 SFTP version 3 negotiated.
+. 2019-03-14 14:06:20.530 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:06:20.530 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:06:20.530 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:06:20.530 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:06:20.530 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:06:20.530 We believe the server has signed timestamps bug
+. 2019-03-14 14:06:20.531 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:06:20.531 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:06:20.531 Getting current directory name.
+. 2019-03-14 14:06:20.532 Getting real path for '.'
+> 2019-03-14 14:06:20.532 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:06:20.533 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:06:20.534 Real path is '/home/clustrex'
+. 2019-03-14 14:06:20.534 Startup conversation with host finished.
+< 2019-03-14 14:06:20.535 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:06:20.537 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:06:20.538 Script: No file matching '*.csv' found.
+. 2019-03-14 14:06:20.539 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:06:20.539   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:06:20.539   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:06:20.539   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:06:20.539 Getting real path for '/tmp/'
+> 2019-03-14 14:06:20.539 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:06:20.541 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:06:20.541 Real path is '/tmp'
+. 2019-03-14 14:06:20.541 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:06:20.543 Script: exit
+. 2019-03-14 14:06:20.543 Script: Exit code: 0
+. 2019-03-14 14:06:20.543 Closing connection.
+. 2019-03-14 14:06:20.543 Sending special code: 12
+. 2019-03-14 14:06:20.543 Sent EOF message
+. 2019-03-14 14:07:17.914 --------------------------------------------------------------------------
+. 2019-03-14 14:07:17.915 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:07:17.916 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:07:17.916 Log level: Normal
+. 2019-03-14 14:07:17.916 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:07:17.916 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:07:17.916 Process ID: 17968
+. 2019-03-14 14:07:17.918 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_17400_856 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:07:17.919 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:07:17.919 Login time: Thursday, March 14, 2019 2:07:17 PM
+. 2019-03-14 14:07:17.919 --------------------------------------------------------------------------
+. 2019-03-14 14:07:17.919 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:07:17.919 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:07:17.919 --------------------------------------------------------------------------
+. 2019-03-14 14:07:17.920 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:07:17.920 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:07:17.920 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:07:17.920 Tunnel: No
+. 2019-03-14 14:07:17.920 Transfer Protocol: SFTP
+. 2019-03-14 14:07:17.920 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:07:17.920 Disable Nagle: No
+. 2019-03-14 14:07:17.921 Proxy: None
+. 2019-03-14 14:07:17.921 Send buffer: 262144
+. 2019-03-14 14:07:17.921 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:07:17.921 Bypass authentication: No
+. 2019-03-14 14:07:17.921 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:07:17.921 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:07:17.921 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:07:17.922 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:07:17.922 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:07:17.922 Simple channel: Yes
+. 2019-03-14 14:07:17.922 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:07:17.922 Shell: default
+. 2019-03-14 14:07:17.922 EOL: LF, UTF: Auto
+. 2019-03-14 14:07:17.922 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:07:17.922 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:07:17.923 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:07:17.923 SFTP Server: default
+. 2019-03-14 14:07:17.923 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:07:17.923 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:07:17.923 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:07:17.923 DST mode: Unix
+. 2019-03-14 14:07:17.923 --------------------------------------------------------------------------
+. 2019-03-14 14:07:17.926 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:07:17.926 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:07:17.932 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:07:17.944 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:07:17.944 Using SSH protocol version 2
+. 2019-03-14 14:07:17.945 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:07:17.948 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:07:19.689 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:07:19.689 Host key fingerprint is:
+. 2019-03-14 14:07:19.689 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:07:19.689 Host key matches cached key
+. 2019-03-14 14:07:19.689 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:07:19.689 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:07:19.689 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:07:19.689 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:07:19.736 Using username "clustrex".
+. 2019-03-14 14:07:19.736 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:07:19.736 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:07:19.736 Using stored password.
+. 2019-03-14 14:07:19.736 Sent password
+. 2019-03-14 14:07:19.752 Access granted
+. 2019-03-14 14:07:19.752 Opening session as main channel
+. 2019-03-14 14:07:19.877 Opened main channel
+. 2019-03-14 14:07:19.877 Started a shell/command
+. 2019-03-14 14:07:19.877 --------------------------------------------------------------------------
+. 2019-03-14 14:07:19.877 Using SFTP protocol.
+. 2019-03-14 14:07:19.877 Doing startup conversation with host.
+> 2019-03-14 14:07:19.883 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:07:19.885 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:07:19.885 SFTP version 3 negotiated.
+. 2019-03-14 14:07:19.886 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:07:19.886 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:07:19.886 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:07:19.886 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:07:19.886 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:07:19.886 We believe the server has signed timestamps bug
+. 2019-03-14 14:07:19.886 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:07:19.886 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:07:19.886 Getting current directory name.
+. 2019-03-14 14:07:19.886 Getting real path for '.'
+> 2019-03-14 14:07:19.887 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:07:19.888 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:07:19.888 Real path is '/home/clustrex'
+. 2019-03-14 14:07:19.888 Startup conversation with host finished.
+< 2019-03-14 14:07:19.889 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:07:19.892 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:07:19.893 Script: No file matching '*.csv' found.
+. 2019-03-14 14:07:19.894 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:07:19.894   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:07:19.894   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:07:19.894   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:07:19.894 Getting real path for '/tmp/'
+> 2019-03-14 14:07:19.894 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:07:19.897 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:07:19.897 Real path is '/tmp'
+. 2019-03-14 14:07:19.897 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:07:19.898 Script: exit
+. 2019-03-14 14:07:19.898 Script: Exit code: 0
+. 2019-03-14 14:07:19.898 Closing connection.
+. 2019-03-14 14:07:19.898 Sending special code: 12
+. 2019-03-14 14:07:19.898 Sent EOF message
+. 2019-03-14 14:08:17.884 --------------------------------------------------------------------------
+. 2019-03-14 14:08:17.884 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:08:17.884 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:08:17.884 Log level: Normal
+. 2019-03-14 14:08:17.884 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:08:17.884 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:08:17.884 Process ID: 5196
+. 2019-03-14 14:08:17.884 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_5720_578 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:08:17.884 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:08:17.884 Login time: Thursday, March 14, 2019 2:08:17 PM
+. 2019-03-14 14:08:17.884 --------------------------------------------------------------------------
+. 2019-03-14 14:08:17.884 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:08:17.884 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:08:17.884 --------------------------------------------------------------------------
+. 2019-03-14 14:08:17.884 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:08:17.884 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:08:17.884 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:08:17.884 Tunnel: No
+. 2019-03-14 14:08:17.884 Transfer Protocol: SFTP
+. 2019-03-14 14:08:17.884 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:08:17.884 Disable Nagle: No
+. 2019-03-14 14:08:17.884 Proxy: None
+. 2019-03-14 14:08:17.884 Send buffer: 262144
+. 2019-03-14 14:08:17.884 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:08:17.884 Bypass authentication: No
+. 2019-03-14 14:08:17.884 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:08:17.884 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:08:17.884 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:08:17.884 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:08:17.884 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:08:17.884 Simple channel: Yes
+. 2019-03-14 14:08:17.884 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:08:17.884 Shell: default
+. 2019-03-14 14:08:17.884 EOL: LF, UTF: Auto
+. 2019-03-14 14:08:17.884 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:08:17.884 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:08:17.884 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:08:17.884 SFTP Server: default
+. 2019-03-14 14:08:17.884 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:08:17.884 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:08:17.884 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:08:17.884 DST mode: Unix
+. 2019-03-14 14:08:17.884 --------------------------------------------------------------------------
+. 2019-03-14 14:08:17.884 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:08:17.884 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:08:17.899 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:08:17.899 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:08:17.899 Using SSH protocol version 2
+. 2019-03-14 14:08:17.899 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:08:17.899 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:08:19.756 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:08:19.769 Host key fingerprint is:
+. 2019-03-14 14:08:19.769 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:08:19.771 Host key matches cached key
+. 2019-03-14 14:08:19.773 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:08:19.773 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:08:19.773 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:08:19.773 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:08:19.813 Using username "clustrex".
+. 2019-03-14 14:08:19.816 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:08:19.816 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:08:19.816 Using stored password.
+. 2019-03-14 14:08:19.818 Sent password
+. 2019-03-14 14:08:19.828 Access granted
+. 2019-03-14 14:08:19.829 Opening session as main channel
+. 2019-03-14 14:08:19.936 Opened main channel
+. 2019-03-14 14:08:19.939 Started a shell/command
+. 2019-03-14 14:08:19.941 --------------------------------------------------------------------------
+. 2019-03-14 14:08:19.943 Using SFTP protocol.
+. 2019-03-14 14:08:19.944 Doing startup conversation with host.
+> 2019-03-14 14:08:19.944 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:08:19.946 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:08:19.946 SFTP version 3 negotiated.
+. 2019-03-14 14:08:19.946 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:08:19.946 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:08:19.946 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:08:19.947 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:08:19.947 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:08:19.947 We believe the server has signed timestamps bug
+. 2019-03-14 14:08:19.947 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:08:19.947 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:08:19.947 Getting current directory name.
+. 2019-03-14 14:08:19.947 Getting real path for '.'
+> 2019-03-14 14:08:19.947 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:08:19.948 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:08:19.949 Real path is '/home/clustrex'
+. 2019-03-14 14:08:19.949 Startup conversation with host finished.
+< 2019-03-14 14:08:19.950 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:08:19.953 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:08:19.954 Script: No file matching '*.csv' found.
+. 2019-03-14 14:08:19.958 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:08:19.958   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:08:19.958   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:08:19.958   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:08:19.958 Getting real path for '/tmp/'
+> 2019-03-14 14:08:19.959 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:08:19.960 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:08:19.961 Real path is '/tmp'
+. 2019-03-14 14:08:19.961 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:08:19.964 Script: exit
+. 2019-03-14 14:08:19.964 Script: Exit code: 0
+. 2019-03-14 14:08:19.964 Closing connection.
+. 2019-03-14 14:08:19.964 Sending special code: 12
+. 2019-03-14 14:08:19.964 Sent EOF message
+. 2019-03-14 14:09:18.193 --------------------------------------------------------------------------
+. 2019-03-14 14:09:18.193 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:09:18.193 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:09:18.193 Log level: Normal
+. 2019-03-14 14:09:18.193 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:09:18.193 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:09:18.193 Process ID: 18148
+. 2019-03-14 14:09:18.193 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_15800_678 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:09:18.193 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:09:18.193 Login time: Thursday, March 14, 2019 2:09:18 PM
+. 2019-03-14 14:09:18.193 --------------------------------------------------------------------------
+. 2019-03-14 14:09:18.193 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:09:18.193 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:09:18.193 --------------------------------------------------------------------------
+. 2019-03-14 14:09:18.193 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:09:18.193 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:09:18.193 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:09:18.193 Tunnel: No
+. 2019-03-14 14:09:18.193 Transfer Protocol: SFTP
+. 2019-03-14 14:09:18.193 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:09:18.193 Disable Nagle: No
+. 2019-03-14 14:09:18.193 Proxy: None
+. 2019-03-14 14:09:18.193 Send buffer: 262144
+. 2019-03-14 14:09:18.193 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:09:18.193 Bypass authentication: No
+. 2019-03-14 14:09:18.193 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:09:18.193 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:09:18.193 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:09:18.193 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:09:18.193 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:09:18.193 Simple channel: Yes
+. 2019-03-14 14:09:18.193 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:09:18.193 Shell: default
+. 2019-03-14 14:09:18.193 EOL: LF, UTF: Auto
+. 2019-03-14 14:09:18.193 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:09:18.193 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:09:18.193 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:09:18.193 SFTP Server: default
+. 2019-03-14 14:09:18.193 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:09:18.193 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:09:18.193 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:09:18.193 DST mode: Unix
+. 2019-03-14 14:09:18.193 --------------------------------------------------------------------------
+. 2019-03-14 14:09:18.193 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:09:18.193 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:09:18.193 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:09:18.208 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:09:18.208 Using SSH protocol version 2
+. 2019-03-14 14:09:18.208 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:09:18.208 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:09:19.886 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:09:19.895 Host key fingerprint is:
+. 2019-03-14 14:09:19.895 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:09:19.897 Host key matches cached key
+. 2019-03-14 14:09:19.898 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:09:19.898 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:09:19.898 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:09:19.898 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:09:19.929 Using username "clustrex".
+. 2019-03-14 14:09:19.929 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:09:19.929 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:09:19.929 Using stored password.
+. 2019-03-14 14:09:19.929 Sent password
+. 2019-03-14 14:09:19.945 Access granted
+. 2019-03-14 14:09:19.945 Opening session as main channel
+. 2019-03-14 14:09:20.070 Opened main channel
+. 2019-03-14 14:09:20.070 Started a shell/command
+. 2019-03-14 14:09:20.070 --------------------------------------------------------------------------
+. 2019-03-14 14:09:20.070 Using SFTP protocol.
+. 2019-03-14 14:09:20.070 Doing startup conversation with host.
+> 2019-03-14 14:09:20.070 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:09:20.070 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:09:20.070 SFTP version 3 negotiated.
+. 2019-03-14 14:09:20.070 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:09:20.070 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:09:20.070 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:09:20.070 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:09:20.070 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:09:20.070 We believe the server has signed timestamps bug
+. 2019-03-14 14:09:20.070 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:09:20.070 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:09:20.070 Getting current directory name.
+. 2019-03-14 14:09:20.070 Getting real path for '.'
+> 2019-03-14 14:09:20.070 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:09:20.070 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:09:20.070 Real path is '/home/clustrex'
+. 2019-03-14 14:09:20.070 Startup conversation with host finished.
+< 2019-03-14 14:09:20.070 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:09:20.070 Script: put C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\input\*.csv /tmp/
+< 2019-03-14 14:09:20.070 Script: No file matching '*.csv' found.
+. 2019-03-14 14:09:20.070 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:09:20.070   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:09:20.085   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:09:20.085   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:09:20.085 Getting real path for '/tmp/'
+> 2019-03-14 14:09:20.085 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:09:20.085 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:09:20.085 Real path is '/tmp'
+. 2019-03-14 14:09:20.085 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:09:20.085 Script: exit
+. 2019-03-14 14:09:20.085 Script: Exit code: 0
+. 2019-03-14 14:09:20.085 Closing connection.
+. 2019-03-14 14:09:20.085 Sending special code: 12
+. 2019-03-14 14:09:20.085 Sent EOF message
+. 2019-03-14 14:09:51.666 --------------------------------------------------------------------------
+. 2019-03-14 14:09:51.666 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:09:51.666 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:09:51.666 Log level: Normal
+. 2019-03-14 14:09:51.666 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:09:51.666 Working directory: C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script
+. 2019-03-14 14:09:51.666 Process ID: 20368
+. 2019-03-14 14:09:51.682 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_13268_286 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:09:51.682 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:09:51.682 Login time: Thursday, March 14, 2019 2:09:51 PM
+. 2019-03-14 14:09:51.682 --------------------------------------------------------------------------
+. 2019-03-14 14:09:51.682 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:09:51.682 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:09:51.682 --------------------------------------------------------------------------
+. 2019-03-14 14:09:51.682 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:09:51.682 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:09:51.682 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:09:51.682 Tunnel: No
+. 2019-03-14 14:09:51.682 Transfer Protocol: SFTP
+. 2019-03-14 14:09:51.682 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:09:51.682 Disable Nagle: No
+. 2019-03-14 14:09:51.682 Proxy: None
+. 2019-03-14 14:09:51.682 Send buffer: 262144
+. 2019-03-14 14:09:51.682 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:09:51.682 Bypass authentication: No
+. 2019-03-14 14:09:51.682 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:09:51.682 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:09:51.682 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:09:51.682 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:09:51.682 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:09:51.682 Simple channel: Yes
+. 2019-03-14 14:09:51.682 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:09:51.682 Shell: default
+. 2019-03-14 14:09:51.682 EOL: LF, UTF: Auto
+. 2019-03-14 14:09:51.682 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:09:51.682 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:09:51.682 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:09:51.682 SFTP Server: default
+. 2019-03-14 14:09:51.682 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:09:51.682 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:09:51.682 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:09:51.682 DST mode: Unix
+. 2019-03-14 14:09:51.682 --------------------------------------------------------------------------
+. 2019-03-14 14:09:51.682 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:09:51.682 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:09:51.682 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:09:51.697 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:09:51.697 Using SSH protocol version 2
+. 2019-03-14 14:09:51.697 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:09:51.697 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:09:53.312 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:09:53.328 Host key fingerprint is:
+. 2019-03-14 14:09:53.328 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:09:53.328 Host key matches cached key
+. 2019-03-14 14:09:53.328 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:09:53.328 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:09:53.328 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:09:53.328 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:09:53.359 Using username "clustrex".
+. 2019-03-14 14:09:53.375 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:09:53.375 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:09:53.375 Using stored password.
+. 2019-03-14 14:09:53.380 Sent password
+. 2019-03-14 14:09:53.380 Access granted
+. 2019-03-14 14:09:53.380 Opening session as main channel
+. 2019-03-14 14:09:53.505 Opened main channel
+. 2019-03-14 14:09:53.505 Started a shell/command
+. 2019-03-14 14:09:53.505 --------------------------------------------------------------------------
+. 2019-03-14 14:09:53.505 Using SFTP protocol.
+. 2019-03-14 14:09:53.505 Doing startup conversation with host.
+> 2019-03-14 14:09:53.505 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:09:53.505 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:09:53.505 SFTP version 3 negotiated.
+. 2019-03-14 14:09:53.505 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:09:53.505 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:09:53.505 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:09:53.505 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:09:53.505 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:09:53.505 We believe the server has signed timestamps bug
+. 2019-03-14 14:09:53.505 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:09:53.505 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:09:53.505 Getting current directory name.
+. 2019-03-14 14:09:53.505 Getting real path for '.'
+> 2019-03-14 14:09:53.505 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:09:53.521 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:09:53.521 Real path is '/home/clustrex'
+. 2019-03-14 14:09:53.521 Startup conversation with host finished.
+< 2019-03-14 14:09:53.521 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:09:53.521 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv /tmp/
+< 2019-03-14 14:09:53.521 Script: No file matching '*.csv' found.
+. 2019-03-14 14:09:53.521 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:09:53.521   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:09:53.521   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:09:53.521   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:09:53.521 Getting real path for '/tmp/'
+> 2019-03-14 14:09:53.521 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:09:53.521 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:09:53.521 Real path is '/tmp'
+. 2019-03-14 14:09:53.521 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:09:53.521 Script: exit
+. 2019-03-14 14:09:53.521 Script: Exit code: 0
+. 2019-03-14 14:09:53.521 Closing connection.
+. 2019-03-14 14:09:53.521 Sending special code: 12
+. 2019-03-14 14:09:53.521 Sent EOF message
+. 2019-03-14 14:10:17.859 --------------------------------------------------------------------------
+. 2019-03-14 14:10:17.859 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:10:17.859 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:10:17.859 Log level: Normal
+. 2019-03-14 14:10:17.859 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:10:17.859 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:10:17.859 Process ID: 12108
+. 2019-03-14 14:10:17.859 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_7952_328 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:10:17.859 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:10:17.859 Login time: Thursday, March 14, 2019 2:10:17 PM
+. 2019-03-14 14:10:17.859 --------------------------------------------------------------------------
+. 2019-03-14 14:10:17.859 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:10:17.859 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:10:17.859 --------------------------------------------------------------------------
+. 2019-03-14 14:10:17.859 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:10:17.859 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:10:17.859 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:10:17.859 Tunnel: No
+. 2019-03-14 14:10:17.859 Transfer Protocol: SFTP
+. 2019-03-14 14:10:17.859 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:10:17.859 Disable Nagle: No
+. 2019-03-14 14:10:17.859 Proxy: None
+. 2019-03-14 14:10:17.859 Send buffer: 262144
+. 2019-03-14 14:10:17.859 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:10:17.859 Bypass authentication: No
+. 2019-03-14 14:10:17.859 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:10:17.859 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:10:17.859 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:10:17.859 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:10:17.859 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:10:17.859 Simple channel: Yes
+. 2019-03-14 14:10:17.859 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:10:17.859 Shell: default
+. 2019-03-14 14:10:17.859 EOL: LF, UTF: Auto
+. 2019-03-14 14:10:17.859 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:10:17.859 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:10:17.859 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:10:17.859 SFTP Server: default
+. 2019-03-14 14:10:17.859 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:10:17.859 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:10:17.859 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:10:17.859 DST mode: Unix
+. 2019-03-14 14:10:17.859 --------------------------------------------------------------------------
+. 2019-03-14 14:10:17.877 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:10:17.877 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:10:17.884 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:10:17.893 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:10:17.893 Using SSH protocol version 2
+. 2019-03-14 14:10:17.894 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:10:17.897 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:10:19.587 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:10:19.594 Host key fingerprint is:
+. 2019-03-14 14:10:19.594 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:10:19.596 Host key matches cached key
+. 2019-03-14 14:10:19.597 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:10:19.597 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:10:19.597 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:10:19.597 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:10:19.636 Using username "clustrex".
+. 2019-03-14 14:10:19.640 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:10:19.641 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:10:19.641 Using stored password.
+. 2019-03-14 14:10:19.642 Sent password
+. 2019-03-14 14:10:19.657 Access granted
+. 2019-03-14 14:10:19.658 Opening session as main channel
+. 2019-03-14 14:10:19.774 Opened main channel
+. 2019-03-14 14:10:19.777 Started a shell/command
+. 2019-03-14 14:10:19.778 --------------------------------------------------------------------------
+. 2019-03-14 14:10:19.778 Using SFTP protocol.
+. 2019-03-14 14:10:19.779 Doing startup conversation with host.
+> 2019-03-14 14:10:19.780 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:10:19.781 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:10:19.781 SFTP version 3 negotiated.
+. 2019-03-14 14:10:19.781 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:10:19.782 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:10:19.782 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:10:19.782 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:10:19.782 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:10:19.782 We believe the server has signed timestamps bug
+. 2019-03-14 14:10:19.782 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:10:19.782 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:10:19.782 Getting current directory name.
+. 2019-03-14 14:10:19.782 Getting real path for '.'
+> 2019-03-14 14:10:19.782 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:10:19.783 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:10:19.784 Real path is '/home/clustrex'
+. 2019-03-14 14:10:19.784 Startup conversation with host finished.
+< 2019-03-14 14:10:19.784 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:10:19.790 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv /tmp/
+< 2019-03-14 14:10:19.791 Script: No file matching '*.csv' found.
+. 2019-03-14 14:10:19.792 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:10:19.792   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:10:19.792   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:10:19.792   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:10:19.792 Getting real path for '/tmp/'
+> 2019-03-14 14:10:19.793 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:10:19.794 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:10:19.794 Real path is '/tmp'
+. 2019-03-14 14:10:19.794 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:10:19.796 Script: exit
+. 2019-03-14 14:10:19.796 Script: Exit code: 0
+. 2019-03-14 14:10:19.796 Closing connection.
+. 2019-03-14 14:10:19.797 Sending special code: 12
+. 2019-03-14 14:10:19.797 Sent EOF message
+. 2019-03-14 14:11:17.945 --------------------------------------------------------------------------
+. 2019-03-14 14:11:17.945 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:11:17.945 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:11:17.945 Log level: Normal
+. 2019-03-14 14:11:17.945 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:11:17.945 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:11:17.945 Process ID: 15380
+. 2019-03-14 14:11:17.945 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_17024_978 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:11:17.945 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:11:17.945 Login time: Thursday, March 14, 2019 2:11:17 PM
+. 2019-03-14 14:11:17.945 --------------------------------------------------------------------------
+. 2019-03-14 14:11:17.945 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:11:17.945 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:11:17.945 --------------------------------------------------------------------------
+. 2019-03-14 14:11:17.945 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:11:17.945 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:11:17.945 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:11:17.945 Tunnel: No
+. 2019-03-14 14:11:17.945 Transfer Protocol: SFTP
+. 2019-03-14 14:11:17.945 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:11:17.945 Disable Nagle: No
+. 2019-03-14 14:11:17.945 Proxy: None
+. 2019-03-14 14:11:17.945 Send buffer: 262144
+. 2019-03-14 14:11:17.945 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:11:17.945 Bypass authentication: No
+. 2019-03-14 14:11:17.945 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:11:17.945 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:11:17.945 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:11:17.945 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:11:17.945 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:11:17.945 Simple channel: Yes
+. 2019-03-14 14:11:17.945 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:11:17.945 Shell: default
+. 2019-03-14 14:11:17.945 EOL: LF, UTF: Auto
+. 2019-03-14 14:11:17.945 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:11:17.945 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:11:17.945 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:11:17.945 SFTP Server: default
+. 2019-03-14 14:11:17.945 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:11:17.945 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:11:17.945 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:11:17.945 DST mode: Unix
+. 2019-03-14 14:11:17.945 --------------------------------------------------------------------------
+. 2019-03-14 14:11:17.960 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:11:17.960 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:11:17.960 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:11:17.976 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:11:17.976 Using SSH protocol version 2
+. 2019-03-14 14:11:17.976 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:11:17.976 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:11:19.615 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:11:19.615 Host key fingerprint is:
+. 2019-03-14 14:11:19.615 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:11:19.615 Host key matches cached key
+. 2019-03-14 14:11:19.631 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:11:19.631 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:11:19.631 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:11:19.631 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:11:19.662 Using username "clustrex".
+. 2019-03-14 14:11:19.662 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:11:19.662 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:11:19.662 Using stored password.
+. 2019-03-14 14:11:19.662 Sent password
+. 2019-03-14 14:11:19.678 Access granted
+. 2019-03-14 14:11:19.678 Opening session as main channel
+. 2019-03-14 14:11:19.803 Opened main channel
+. 2019-03-14 14:11:19.803 Started a shell/command
+. 2019-03-14 14:11:19.803 --------------------------------------------------------------------------
+. 2019-03-14 14:11:19.803 Using SFTP protocol.
+. 2019-03-14 14:11:19.803 Doing startup conversation with host.
+> 2019-03-14 14:11:19.803 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:11:19.803 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:11:19.803 SFTP version 3 negotiated.
+. 2019-03-14 14:11:19.803 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:11:19.803 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:11:19.803 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:11:19.803 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:11:19.803 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:11:19.803 We believe the server has signed timestamps bug
+. 2019-03-14 14:11:19.803 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:11:19.803 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:11:19.803 Getting current directory name.
+. 2019-03-14 14:11:19.803 Getting real path for '.'
+> 2019-03-14 14:11:19.803 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:11:19.803 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:11:19.803 Real path is '/home/clustrex'
+. 2019-03-14 14:11:19.803 Startup conversation with host finished.
+< 2019-03-14 14:11:19.803 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:11:19.803 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:11:19.803 Script: No file matching '*.csv' found.
+. 2019-03-14 14:11:19.819 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:11:19.819   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:11:19.819   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:11:19.819   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:11:19.819 Getting real path for '/tmp/'
+> 2019-03-14 14:11:19.819 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:11:19.819 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:11:19.819 Real path is '/tmp'
+. 2019-03-14 14:11:19.819 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:11:19.819 Script: exit
+. 2019-03-14 14:11:19.819 Script: Exit code: 0
+. 2019-03-14 14:11:19.819 Closing connection.
+. 2019-03-14 14:11:19.819 Sending special code: 12
+. 2019-03-14 14:11:19.819 Sent EOF message
+. 2019-03-14 14:12:17.915 --------------------------------------------------------------------------
+. 2019-03-14 14:12:17.915 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:12:17.915 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:12:17.915 Log level: Normal
+. 2019-03-14 14:12:17.915 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:12:17.915 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:12:17.915 Process ID: 14904
+. 2019-03-14 14:12:17.915 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_8572_151 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:12:17.915 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:12:17.915 Login time: Thursday, March 14, 2019 2:12:17 PM
+. 2019-03-14 14:12:17.915 --------------------------------------------------------------------------
+. 2019-03-14 14:12:17.915 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:12:17.915 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:12:17.915 --------------------------------------------------------------------------
+. 2019-03-14 14:12:17.930 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:12:17.930 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:12:17.930 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:12:17.930 Tunnel: No
+. 2019-03-14 14:12:17.930 Transfer Protocol: SFTP
+. 2019-03-14 14:12:17.930 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:12:17.930 Disable Nagle: No
+. 2019-03-14 14:12:17.930 Proxy: None
+. 2019-03-14 14:12:17.930 Send buffer: 262144
+. 2019-03-14 14:12:17.930 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:12:17.930 Bypass authentication: No
+. 2019-03-14 14:12:17.930 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:12:17.930 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:12:17.930 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:12:17.930 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:12:17.930 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:12:17.930 Simple channel: Yes
+. 2019-03-14 14:12:17.930 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:12:17.930 Shell: default
+. 2019-03-14 14:12:17.930 EOL: LF, UTF: Auto
+. 2019-03-14 14:12:17.930 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:12:17.930 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:12:17.930 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:12:17.930 SFTP Server: default
+. 2019-03-14 14:12:17.930 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:12:17.930 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:12:17.930 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:12:17.930 DST mode: Unix
+. 2019-03-14 14:12:17.930 --------------------------------------------------------------------------
+. 2019-03-14 14:12:17.930 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:12:17.930 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:12:17.930 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:12:17.946 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:12:17.946 Using SSH protocol version 2
+. 2019-03-14 14:12:17.946 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:12:17.946 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:12:19.659 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:12:19.659 Host key fingerprint is:
+. 2019-03-14 14:12:19.659 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:12:19.659 Host key matches cached key
+. 2019-03-14 14:12:19.659 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:12:19.659 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:12:19.659 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:12:19.659 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:12:19.705 Using username "clustrex".
+. 2019-03-14 14:12:19.705 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:12:19.705 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:12:19.705 Using stored password.
+. 2019-03-14 14:12:19.705 Sent password
+. 2019-03-14 14:12:19.721 Access granted
+. 2019-03-14 14:12:19.721 Opening session as main channel
+. 2019-03-14 14:12:19.846 Opened main channel
+. 2019-03-14 14:12:19.849 Started a shell/command
+. 2019-03-14 14:12:19.850 --------------------------------------------------------------------------
+. 2019-03-14 14:12:19.850 Using SFTP protocol.
+. 2019-03-14 14:12:19.850 Doing startup conversation with host.
+> 2019-03-14 14:12:19.851 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:12:19.853 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:12:19.853 SFTP version 3 negotiated.
+. 2019-03-14 14:12:19.853 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:12:19.853 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:12:19.853 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:12:19.853 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:12:19.854 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:12:19.854 We believe the server has signed timestamps bug
+. 2019-03-14 14:12:19.854 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:12:19.854 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:12:19.854 Getting current directory name.
+. 2019-03-14 14:12:19.854 Getting real path for '.'
+> 2019-03-14 14:12:19.854 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:12:19.855 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:12:19.856 Real path is '/home/clustrex'
+. 2019-03-14 14:12:19.856 Startup conversation with host finished.
+< 2019-03-14 14:12:19.856 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:12:19.861 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:12:19.862 Script: No file matching '*.csv' found.
+. 2019-03-14 14:12:19.863 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:12:19.863   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:12:19.863   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:12:19.863   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:12:19.865 Getting real path for '/tmp/'
+> 2019-03-14 14:12:19.865 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:12:19.866 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:12:19.866 Real path is '/tmp'
+. 2019-03-14 14:12:19.867 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:12:19.867 Script: exit
+. 2019-03-14 14:12:19.868 Script: Exit code: 0
+. 2019-03-14 14:12:19.868 Closing connection.
+. 2019-03-14 14:12:19.870 Sending special code: 12
+. 2019-03-14 14:12:19.870 Sent EOF message
+. 2019-03-14 14:13:18.478 --------------------------------------------------------------------------
+. 2019-03-14 14:13:18.494 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:13:18.494 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:13:18.494 Log level: Normal
+. 2019-03-14 14:13:18.494 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:13:18.494 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:13:18.494 Process ID: 17344
+. 2019-03-14 14:13:18.494 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_9892_800 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:13:18.494 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:13:18.494 Login time: Thursday, March 14, 2019 2:13:18 PM
+. 2019-03-14 14:13:18.494 --------------------------------------------------------------------------
+. 2019-03-14 14:13:18.494 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:13:18.494 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:13:18.494 --------------------------------------------------------------------------
+. 2019-03-14 14:13:18.494 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:13:18.494 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:13:18.494 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:13:18.494 Tunnel: No
+. 2019-03-14 14:13:18.494 Transfer Protocol: SFTP
+. 2019-03-14 14:13:18.494 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:13:18.494 Disable Nagle: No
+. 2019-03-14 14:13:18.494 Proxy: None
+. 2019-03-14 14:13:18.494 Send buffer: 262144
+. 2019-03-14 14:13:18.494 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:13:18.494 Bypass authentication: No
+. 2019-03-14 14:13:18.494 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:13:18.494 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:13:18.494 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:13:18.494 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:13:18.494 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:13:18.494 Simple channel: Yes
+. 2019-03-14 14:13:18.494 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:13:18.494 Shell: default
+. 2019-03-14 14:13:18.494 EOL: LF, UTF: Auto
+. 2019-03-14 14:13:18.494 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:13:18.494 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:13:18.494 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:13:18.494 SFTP Server: default
+. 2019-03-14 14:13:18.494 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:13:18.494 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:13:18.494 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:13:18.494 DST mode: Unix
+. 2019-03-14 14:13:18.494 --------------------------------------------------------------------------
+. 2019-03-14 14:13:18.494 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:13:18.494 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:13:18.494 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:13:18.510 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:13:18.510 Using SSH protocol version 2
+. 2019-03-14 14:13:18.510 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:13:18.510 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:13:20.457 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:13:20.457 Host key fingerprint is:
+. 2019-03-14 14:13:20.457 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:13:20.457 Host key matches cached key
+. 2019-03-14 14:13:20.457 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:13:20.457 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:13:20.457 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:13:20.457 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:13:20.504 Using username "clustrex".
+. 2019-03-14 14:13:20.504 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:13:20.504 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:13:20.504 Using stored password.
+. 2019-03-14 14:13:20.504 Sent password
+. 2019-03-14 14:13:22.777 Password authentication failed
+! 2019-03-14 14:13:22.777 Access denied
+. 2019-03-14 14:13:22.777 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:13:22.777 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:13:22.777 Disconnected: Unable to authenticate
+. 2019-03-14 14:14:17.915 --------------------------------------------------------------------------
+. 2019-03-14 14:14:17.915 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:14:17.915 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:14:17.915 Log level: Normal
+. 2019-03-14 14:14:17.915 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:14:17.915 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:14:17.915 Process ID: 12020
+. 2019-03-14 14:14:17.915 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_19012_450 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:14:17.915 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:14:17.915 Login time: Thursday, March 14, 2019 2:14:17 PM
+. 2019-03-14 14:14:17.915 --------------------------------------------------------------------------
+. 2019-03-14 14:14:17.931 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:14:17.931 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:14:17.931 --------------------------------------------------------------------------
+. 2019-03-14 14:14:17.931 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:14:17.931 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:14:17.931 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:14:17.931 Tunnel: No
+. 2019-03-14 14:14:17.931 Transfer Protocol: SFTP
+. 2019-03-14 14:14:17.931 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:14:17.931 Disable Nagle: No
+. 2019-03-14 14:14:17.931 Proxy: None
+. 2019-03-14 14:14:17.931 Send buffer: 262144
+. 2019-03-14 14:14:17.931 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:14:17.931 Bypass authentication: No
+. 2019-03-14 14:14:17.931 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:14:17.931 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:14:17.931 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:14:17.931 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:14:17.931 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:14:17.931 Simple channel: Yes
+. 2019-03-14 14:14:17.931 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:14:17.931 Shell: default
+. 2019-03-14 14:14:17.931 EOL: LF, UTF: Auto
+. 2019-03-14 14:14:17.931 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:14:17.931 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:14:17.931 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:14:17.931 SFTP Server: default
+. 2019-03-14 14:14:17.931 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:14:17.931 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:14:17.931 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:14:17.931 DST mode: Unix
+. 2019-03-14 14:14:17.931 --------------------------------------------------------------------------
+. 2019-03-14 14:14:17.931 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:14:17.931 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:14:17.931 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:14:17.931 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:14:17.931 Using SSH protocol version 2
+. 2019-03-14 14:14:17.931 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:14:17.947 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:14:19.579 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:14:19.595 Host key fingerprint is:
+. 2019-03-14 14:14:19.595 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:14:19.595 Host key matches cached key
+. 2019-03-14 14:14:19.595 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:14:19.595 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:14:19.595 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:14:19.595 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:14:19.626 Using username "clustrex".
+. 2019-03-14 14:14:19.626 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:14:19.626 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:14:19.626 Using stored password.
+. 2019-03-14 14:14:19.626 Sent password
+. 2019-03-14 14:14:22.006 Password authentication failed
+! 2019-03-14 14:14:22.006 Access denied
+. 2019-03-14 14:14:22.006 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:14:22.006 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:14:22.006 Disconnected: Unable to authenticate
+. 2019-03-14 14:14:52.496 --------------------------------------------------------------------------
+. 2019-03-14 14:14:52.496 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:14:52.496 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:14:52.496 Log level: Normal
+. 2019-03-14 14:14:52.496 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:14:52.496 Working directory: C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script
+. 2019-03-14 14:14:52.496 Process ID: 6124
+. 2019-03-14 14:14:52.496 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_18760_985 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:14:52.496 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:14:52.496 Login time: Thursday, March 14, 2019 2:14:52 PM
+. 2019-03-14 14:14:52.496 --------------------------------------------------------------------------
+. 2019-03-14 14:14:52.496 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:14:52.496 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:14:52.496 --------------------------------------------------------------------------
+. 2019-03-14 14:14:52.496 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:14:52.496 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:14:52.496 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:14:52.496 Tunnel: No
+. 2019-03-14 14:14:52.496 Transfer Protocol: SFTP
+. 2019-03-14 14:14:52.496 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:14:52.496 Disable Nagle: No
+. 2019-03-14 14:14:52.496 Proxy: None
+. 2019-03-14 14:14:52.496 Send buffer: 262144
+. 2019-03-14 14:14:52.496 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:14:52.496 Bypass authentication: No
+. 2019-03-14 14:14:52.496 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:14:52.496 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:14:52.496 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:14:52.496 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:14:52.496 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:14:52.496 Simple channel: Yes
+. 2019-03-14 14:14:52.496 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:14:52.496 Shell: default
+. 2019-03-14 14:14:52.496 EOL: LF, UTF: Auto
+. 2019-03-14 14:14:52.496 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:14:52.496 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:14:52.496 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:14:52.496 SFTP Server: default
+. 2019-03-14 14:14:52.496 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:14:52.496 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:14:52.496 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:14:52.496 DST mode: Unix
+. 2019-03-14 14:14:52.496 --------------------------------------------------------------------------
+. 2019-03-14 14:14:52.496 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:14:52.496 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:14:52.511 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:14:52.511 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:14:52.511 Using SSH protocol version 2
+. 2019-03-14 14:14:52.511 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:14:52.527 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:14:55.060 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:14:55.076 Host key fingerprint is:
+. 2019-03-14 14:14:55.076 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:14:55.076 Host key matches cached key
+. 2019-03-14 14:14:55.076 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:14:55.076 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:14:55.076 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:14:55.076 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:14:55.107 Using username "clustrex".
+. 2019-03-14 14:14:55.123 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:14:55.123 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:14:55.123 Using stored password.
+. 2019-03-14 14:14:55.123 Sent password
+. 2019-03-14 14:14:55.123 Access granted
+. 2019-03-14 14:14:55.123 Opening session as main channel
+. 2019-03-14 14:14:55.264 Opened main channel
+. 2019-03-14 14:14:55.264 Started a shell/command
+. 2019-03-14 14:14:55.264 --------------------------------------------------------------------------
+. 2019-03-14 14:14:55.264 Using SFTP protocol.
+. 2019-03-14 14:14:55.264 Doing startup conversation with host.
+> 2019-03-14 14:14:55.264 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:14:55.264 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:14:55.264 SFTP version 3 negotiated.
+. 2019-03-14 14:14:55.264 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:14:55.264 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:14:55.264 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:14:55.264 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:14:55.264 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:14:55.264 We believe the server has signed timestamps bug
+. 2019-03-14 14:14:55.264 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:14:55.264 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:14:55.264 Getting current directory name.
+. 2019-03-14 14:14:55.264 Getting real path for '.'
+> 2019-03-14 14:14:55.264 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:14:55.264 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:14:55.264 Real path is '/home/clustrex'
+. 2019-03-14 14:14:55.264 Startup conversation with host finished.
+< 2019-03-14 14:14:55.279 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:14:55.279 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:14:55.279 Script: No file matching '*.csv' found.
+. 2019-03-14 14:14:55.279 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:14:55.279   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:14:55.279   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:14:55.279   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:14:55.279 Getting real path for '/tmp/'
+> 2019-03-14 14:14:55.279 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:14:55.279 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:14:55.279 Real path is '/tmp'
+. 2019-03-14 14:14:55.279 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:14:55.279 Script: exit
+. 2019-03-14 14:14:55.279 Script: Exit code: 0
+. 2019-03-14 14:14:55.279 Closing connection.
+. 2019-03-14 14:14:55.279 Sending special code: 12
+. 2019-03-14 14:14:55.279 Sent EOF message
+. 2019-03-14 14:15:18.019 --------------------------------------------------------------------------
+. 2019-03-14 14:15:18.019 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:15:18.019 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:15:18.019 Log level: Normal
+. 2019-03-14 14:15:18.019 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:15:18.019 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:15:18.019 Process ID: 17060
+. 2019-03-14 14:15:18.035 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_19560_623 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:15:18.035 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:15:18.035 Login time: Thursday, March 14, 2019 2:15:18 PM
+. 2019-03-14 14:15:18.035 --------------------------------------------------------------------------
+. 2019-03-14 14:15:18.035 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:15:18.035 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:15:18.035 --------------------------------------------------------------------------
+. 2019-03-14 14:15:18.035 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:15:18.035 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:15:18.035 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:15:18.035 Tunnel: No
+. 2019-03-14 14:15:18.035 Transfer Protocol: SFTP
+. 2019-03-14 14:15:18.035 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:15:18.035 Disable Nagle: No
+. 2019-03-14 14:15:18.035 Proxy: None
+. 2019-03-14 14:15:18.035 Send buffer: 262144
+. 2019-03-14 14:15:18.035 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:15:18.035 Bypass authentication: No
+. 2019-03-14 14:15:18.035 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:15:18.035 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:15:18.035 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:15:18.035 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:15:18.035 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:15:18.035 Simple channel: Yes
+. 2019-03-14 14:15:18.035 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:15:18.035 Shell: default
+. 2019-03-14 14:15:18.035 EOL: LF, UTF: Auto
+. 2019-03-14 14:15:18.035 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:15:18.035 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:15:18.035 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:15:18.035 SFTP Server: default
+. 2019-03-14 14:15:18.035 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:15:18.035 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:15:18.035 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:15:18.035 DST mode: Unix
+. 2019-03-14 14:15:18.035 --------------------------------------------------------------------------
+. 2019-03-14 14:15:18.035 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:15:18.035 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:15:18.035 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:15:18.051 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:15:18.051 Using SSH protocol version 2
+. 2019-03-14 14:15:18.051 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:15:18.051 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:15:19.714 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:15:19.730 Host key fingerprint is:
+. 2019-03-14 14:15:19.730 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:15:19.730 Host key matches cached key
+. 2019-03-14 14:15:19.730 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:15:19.730 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:15:19.730 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:15:19.730 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:15:19.761 Using username "clustrex".
+. 2019-03-14 14:15:19.761 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:15:19.761 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:15:19.761 Using stored password.
+. 2019-03-14 14:15:19.777 Sent password
+. 2019-03-14 14:15:19.777 Access granted
+. 2019-03-14 14:15:19.777 Opening session as main channel
+. 2019-03-14 14:15:19.919 Opened main channel
+. 2019-03-14 14:15:19.919 Started a shell/command
+. 2019-03-14 14:15:19.919 --------------------------------------------------------------------------
+. 2019-03-14 14:15:19.919 Using SFTP protocol.
+. 2019-03-14 14:15:19.919 Doing startup conversation with host.
+> 2019-03-14 14:15:19.919 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:15:19.919 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:15:19.919 SFTP version 3 negotiated.
+. 2019-03-14 14:15:19.919 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:15:19.919 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:15:19.919 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:15:19.919 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:15:19.919 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:15:19.919 We believe the server has signed timestamps bug
+. 2019-03-14 14:15:19.919 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:15:19.919 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:15:19.919 Getting current directory name.
+. 2019-03-14 14:15:19.919 Getting real path for '.'
+> 2019-03-14 14:15:19.919 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:15:19.919 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:15:19.919 Real path is '/home/clustrex'
+. 2019-03-14 14:15:19.919 Startup conversation with host finished.
+< 2019-03-14 14:15:19.919 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:15:19.919 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:15:19.919 Script: No file matching '*.csv' found.
+. 2019-03-14 14:15:19.934 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:15:19.934   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:15:19.934   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:15:19.934   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:15:19.934 Getting real path for '/tmp/'
+> 2019-03-14 14:15:19.934 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:15:19.934 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:15:19.934 Real path is '/tmp'
+. 2019-03-14 14:15:19.934 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:15:19.934 Script: exit
+. 2019-03-14 14:15:19.934 Script: Exit code: 0
+. 2019-03-14 14:15:19.934 Closing connection.
+. 2019-03-14 14:15:19.934 Sending special code: 12
+. 2019-03-14 14:15:19.934 Sent EOF message
+. 2019-03-14 14:16:18.185 --------------------------------------------------------------------------
+. 2019-03-14 14:16:18.185 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:16:18.185 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:16:18.185 Log level: Normal
+. 2019-03-14 14:16:18.185 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:16:18.185 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:16:18.185 Process ID: 5116
+. 2019-03-14 14:16:18.185 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_16220_273 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:16:18.185 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:16:18.185 Login time: Thursday, March 14, 2019 2:16:18 PM
+. 2019-03-14 14:16:18.185 --------------------------------------------------------------------------
+. 2019-03-14 14:16:18.185 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:16:18.185 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:16:18.185 --------------------------------------------------------------------------
+. 2019-03-14 14:16:18.185 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:16:18.185 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:16:18.185 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:16:18.185 Tunnel: No
+. 2019-03-14 14:16:18.185 Transfer Protocol: SFTP
+. 2019-03-14 14:16:18.185 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:16:18.185 Disable Nagle: No
+. 2019-03-14 14:16:18.185 Proxy: None
+. 2019-03-14 14:16:18.185 Send buffer: 262144
+. 2019-03-14 14:16:18.185 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:16:18.185 Bypass authentication: No
+. 2019-03-14 14:16:18.185 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:16:18.185 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:16:18.185 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:16:18.185 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:16:18.185 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:16:18.185 Simple channel: Yes
+. 2019-03-14 14:16:18.185 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:16:18.185 Shell: default
+. 2019-03-14 14:16:18.185 EOL: LF, UTF: Auto
+. 2019-03-14 14:16:18.185 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:16:18.185 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:16:18.185 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:16:18.185 SFTP Server: default
+. 2019-03-14 14:16:18.185 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:16:18.185 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:16:18.185 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:16:18.185 DST mode: Unix
+. 2019-03-14 14:16:18.185 --------------------------------------------------------------------------
+. 2019-03-14 14:16:18.185 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:16:18.185 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:16:18.185 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:16:18.201 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:16:18.201 Using SSH protocol version 2
+. 2019-03-14 14:16:18.201 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:16:18.201 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:16:19.897 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:16:19.897 Host key fingerprint is:
+. 2019-03-14 14:16:19.897 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:16:19.897 Host key matches cached key
+. 2019-03-14 14:16:19.897 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:16:19.897 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:16:19.897 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:16:19.897 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:16:19.935 Using username "clustrex".
+. 2019-03-14 14:16:19.950 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:16:19.950 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:16:19.950 Using stored password.
+. 2019-03-14 14:16:19.950 Sent password
+. 2019-03-14 14:16:19.966 Access granted
+. 2019-03-14 14:16:19.966 Opening session as main channel
+. 2019-03-14 14:16:20.091 Opened main channel
+. 2019-03-14 14:16:20.091 Started a shell/command
+. 2019-03-14 14:16:20.091 --------------------------------------------------------------------------
+. 2019-03-14 14:16:20.091 Using SFTP protocol.
+. 2019-03-14 14:16:20.091 Doing startup conversation with host.
+> 2019-03-14 14:16:20.091 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:16:20.091 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:16:20.091 SFTP version 3 negotiated.
+. 2019-03-14 14:16:20.091 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:16:20.091 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:16:20.091 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:16:20.091 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:16:20.091 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:16:20.091 We believe the server has signed timestamps bug
+. 2019-03-14 14:16:20.091 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:16:20.091 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:16:20.091 Getting current directory name.
+. 2019-03-14 14:16:20.091 Getting real path for '.'
+> 2019-03-14 14:16:20.091 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:16:20.091 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:16:20.091 Real path is '/home/clustrex'
+. 2019-03-14 14:16:20.091 Startup conversation with host finished.
+< 2019-03-14 14:16:20.091 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:16:20.091 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:16:20.091 Script: No file matching '*.csv' found.
+. 2019-03-14 14:16:20.106 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:16:20.106   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:16:20.106   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:16:20.106   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:16:20.106 Getting real path for '/tmp/'
+> 2019-03-14 14:16:20.106 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:16:20.106 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:16:20.106 Real path is '/tmp'
+. 2019-03-14 14:16:20.106 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:16:20.106 Script: exit
+. 2019-03-14 14:16:20.106 Script: Exit code: 0
+. 2019-03-14 14:16:20.106 Closing connection.
+. 2019-03-14 14:16:20.106 Sending special code: 12
+. 2019-03-14 14:16:20.106 Sent EOF message
+. 2019-03-14 14:17:18.018 --------------------------------------------------------------------------
+. 2019-03-14 14:17:18.018 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:17:18.018 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:17:18.018 Log level: Normal
+. 2019-03-14 14:17:18.018 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:17:18.018 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:17:18.018 Process ID: 19012
+. 2019-03-14 14:17:18.018 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_19368_923 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:17:18.018 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:17:18.018 Login time: Thursday, March 14, 2019 2:17:18 PM
+. 2019-03-14 14:17:18.018 --------------------------------------------------------------------------
+. 2019-03-14 14:17:18.018 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:17:18.018 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:17:18.018 --------------------------------------------------------------------------
+. 2019-03-14 14:17:18.018 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:17:18.018 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:17:18.018 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:17:18.018 Tunnel: No
+. 2019-03-14 14:17:18.018 Transfer Protocol: SFTP
+. 2019-03-14 14:17:18.018 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:17:18.018 Disable Nagle: No
+. 2019-03-14 14:17:18.018 Proxy: None
+. 2019-03-14 14:17:18.018 Send buffer: 262144
+. 2019-03-14 14:17:18.018 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:17:18.018 Bypass authentication: No
+. 2019-03-14 14:17:18.034 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:17:18.034 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:17:18.034 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:17:18.034 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:17:18.034 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:17:18.034 Simple channel: Yes
+. 2019-03-14 14:17:18.034 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:17:18.034 Shell: default
+. 2019-03-14 14:17:18.034 EOL: LF, UTF: Auto
+. 2019-03-14 14:17:18.034 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:17:18.034 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:17:18.034 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:17:18.034 SFTP Server: default
+. 2019-03-14 14:17:18.034 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:17:18.034 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:17:18.034 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:17:18.034 DST mode: Unix
+. 2019-03-14 14:17:18.034 --------------------------------------------------------------------------
+. 2019-03-14 14:17:18.034 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:17:18.034 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:17:18.034 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:17:18.049 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:17:18.049 Using SSH protocol version 2
+. 2019-03-14 14:17:18.049 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:17:18.049 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:17:19.642 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:17:19.658 Host key fingerprint is:
+. 2019-03-14 14:17:19.658 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:17:19.658 Host key matches cached key
+. 2019-03-14 14:17:19.658 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:17:19.658 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:17:19.658 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:17:19.658 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:17:19.705 Using username "clustrex".
+. 2019-03-14 14:17:19.705 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:17:19.705 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:17:19.705 Using stored password.
+. 2019-03-14 14:17:19.705 Sent password
+. 2019-03-14 14:17:19.705 Access granted
+. 2019-03-14 14:17:19.705 Opening session as main channel
+. 2019-03-14 14:17:19.830 Opened main channel
+. 2019-03-14 14:17:19.830 Started a shell/command
+. 2019-03-14 14:17:19.830 --------------------------------------------------------------------------
+. 2019-03-14 14:17:19.830 Using SFTP protocol.
+. 2019-03-14 14:17:19.830 Doing startup conversation with host.
+> 2019-03-14 14:17:19.830 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:17:19.830 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:17:19.830 SFTP version 3 negotiated.
+. 2019-03-14 14:17:19.830 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:17:19.830 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:17:19.830 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:17:19.830 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:17:19.830 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:17:19.830 We believe the server has signed timestamps bug
+. 2019-03-14 14:17:19.830 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:17:19.830 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:17:19.830 Getting current directory name.
+. 2019-03-14 14:17:19.830 Getting real path for '.'
+> 2019-03-14 14:17:19.830 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:17:19.830 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:17:19.830 Real path is '/home/clustrex'
+. 2019-03-14 14:17:19.830 Startup conversation with host finished.
+< 2019-03-14 14:17:19.830 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:17:19.830 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:17:19.830 Script: No file matching '*.csv' found.
+. 2019-03-14 14:17:19.845 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:17:19.845   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:17:19.845   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:17:19.845   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:17:19.845 Getting real path for '/tmp/'
+> 2019-03-14 14:17:19.845 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:17:19.845 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:17:19.845 Real path is '/tmp'
+. 2019-03-14 14:17:19.845 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:17:19.845 Script: exit
+. 2019-03-14 14:17:19.845 Script: Exit code: 0
+. 2019-03-14 14:17:19.845 Closing connection.
+. 2019-03-14 14:17:19.845 Sending special code: 12
+. 2019-03-14 14:17:19.845 Sent EOF message
+. 2019-03-14 14:18:18.201 --------------------------------------------------------------------------
+. 2019-03-14 14:18:18.201 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:18:18.201 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:18:18.201 Log level: Normal
+. 2019-03-14 14:18:18.201 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:18:18.201 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:18:18.201 Process ID: 15164
+. 2019-03-14 14:18:18.201 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_13460_95 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:18:18.201 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:18:18.201 Login time: Thursday, March 14, 2019 2:18:18 PM
+. 2019-03-14 14:18:18.201 --------------------------------------------------------------------------
+. 2019-03-14 14:18:18.201 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:18:18.201 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:18:18.201 --------------------------------------------------------------------------
+. 2019-03-14 14:18:18.201 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:18:18.201 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:18:18.201 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:18:18.201 Tunnel: No
+. 2019-03-14 14:18:18.201 Transfer Protocol: SFTP
+. 2019-03-14 14:18:18.201 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:18:18.201 Disable Nagle: No
+. 2019-03-14 14:18:18.201 Proxy: None
+. 2019-03-14 14:18:18.201 Send buffer: 262144
+. 2019-03-14 14:18:18.201 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:18:18.201 Bypass authentication: No
+. 2019-03-14 14:18:18.201 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:18:18.201 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:18:18.201 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:18:18.201 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:18:18.201 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:18:18.201 Simple channel: Yes
+. 2019-03-14 14:18:18.201 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:18:18.201 Shell: default
+. 2019-03-14 14:18:18.201 EOL: LF, UTF: Auto
+. 2019-03-14 14:18:18.201 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:18:18.201 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:18:18.201 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:18:18.201 SFTP Server: default
+. 2019-03-14 14:18:18.201 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:18:18.201 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:18:18.201 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:18:18.201 DST mode: Unix
+. 2019-03-14 14:18:18.201 --------------------------------------------------------------------------
+. 2019-03-14 14:18:18.201 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:18:18.201 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:18:18.216 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:18:18.216 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:18:18.216 Using SSH protocol version 2
+. 2019-03-14 14:18:18.216 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:18:18.216 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:18:19.988 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:18:19.995 Host key fingerprint is:
+. 2019-03-14 14:18:19.996 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:18:19.997 Host key matches cached key
+. 2019-03-14 14:18:19.998 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:18:19.998 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:18:19.998 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:18:19.999 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:18:20.036 Using username "clustrex".
+. 2019-03-14 14:18:20.038 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:18:20.038 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:18:20.039 Using stored password.
+. 2019-03-14 14:18:20.040 Sent password
+. 2019-03-14 14:18:20.048 Access granted
+. 2019-03-14 14:18:20.048 Opening session as main channel
+. 2019-03-14 14:18:20.153 Opened main channel
+. 2019-03-14 14:18:20.157 Started a shell/command
+. 2019-03-14 14:18:20.157 --------------------------------------------------------------------------
+. 2019-03-14 14:18:20.158 Using SFTP protocol.
+. 2019-03-14 14:18:20.159 Doing startup conversation with host.
+> 2019-03-14 14:18:20.159 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:18:20.161 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:18:20.161 SFTP version 3 negotiated.
+. 2019-03-14 14:18:20.161 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:18:20.162 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:18:20.162 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:18:20.162 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:18:20.162 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:18:20.162 We believe the server has signed timestamps bug
+. 2019-03-14 14:18:20.162 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:18:20.162 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:18:20.162 Getting current directory name.
+. 2019-03-14 14:18:20.162 Getting real path for '.'
+> 2019-03-14 14:18:20.163 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:18:20.164 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:18:20.165 Real path is '/home/clustrex'
+. 2019-03-14 14:18:20.165 Startup conversation with host finished.
+< 2019-03-14 14:18:20.166 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:18:20.172 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:18:20.173 Script: No file matching '*.csv' found.
+. 2019-03-14 14:18:20.175 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:18:20.175   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:18:20.175   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:18:20.175   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:18:20.175 Getting real path for '/tmp/'
+> 2019-03-14 14:18:20.175 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:18:20.176 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:18:20.177 Real path is '/tmp'
+. 2019-03-14 14:18:20.177 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:18:20.181 Script: exit
+. 2019-03-14 14:18:20.183 Script: Exit code: 0
+. 2019-03-14 14:18:20.183 Closing connection.
+. 2019-03-14 14:18:20.183 Sending special code: 12
+. 2019-03-14 14:18:20.184 Sent EOF message
+. 2019-03-14 14:19:18.168 --------------------------------------------------------------------------
+. 2019-03-14 14:19:18.169 WinSCP Version 5.13.8 (Build 9278) (OS 10.0.17134 - Windows 10 Home)
+. 2019-03-14 14:19:18.169 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2019-03-14 14:19:18.170 Log level: Normal
+. 2019-03-14 14:19:18.170 Local account: LENOVO-PC\Murugesh
+. 2019-03-14 14:19:18.170 Working directory: C:\WINDOWS\system32
+. 2019-03-14 14:19:18.170 Process ID: 18988
+. 2019-03-14 14:19:18.173 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.13.8 /consoleinstance=_17356_745 "/script=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.txt" "/log=C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\winscp.log" 
+. 2019-03-14 14:19:18.173 Time zone: Current: GMT+5:30 (India Standard Time), No DST
+. 2019-03-14 14:19:18.174 Login time: Thursday, March 14, 2019 2:19:18 PM
+. 2019-03-14 14:19:18.174 --------------------------------------------------------------------------
+. 2019-03-14 14:19:18.174 Script: Retrospectively logging previous script records:
+> 2019-03-14 14:19:18.174 Script: open sftp://clustrex:***@192.168.1.100/
+. 2019-03-14 14:19:18.174 --------------------------------------------------------------------------
+. 2019-03-14 14:19:18.174 Session name: clustrex@192.168.1.100 (Ad-Hoc site)
+. 2019-03-14 14:19:18.174 Host name: 192.168.1.100 (Port: 22)
+. 2019-03-14 14:19:18.174 User name: clustrex (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-14 14:19:18.174 Tunnel: No
+. 2019-03-14 14:19:18.174 Transfer Protocol: SFTP
+. 2019-03-14 14:19:18.174 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-14 14:19:18.175 Disable Nagle: No
+. 2019-03-14 14:19:18.175 Proxy: None
+. 2019-03-14 14:19:18.175 Send buffer: 262144
+. 2019-03-14 14:19:18.175 SSH protocol version: 2; Compression: No
+. 2019-03-14 14:19:18.175 Bypass authentication: No
+. 2019-03-14 14:19:18.176 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-14 14:19:18.176 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-14 14:19:18.176 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-14 14:19:18.176 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-14 14:19:18.176 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-14 14:19:18.176 Simple channel: Yes
+. 2019-03-14 14:19:18.176 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-14 14:19:18.177 Shell: default
+. 2019-03-14 14:19:18.177 EOL: LF, UTF: Auto
+. 2019-03-14 14:19:18.177 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-14 14:19:18.177 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-14 14:19:18.178 SFTP Bugs: Auto,Auto
+. 2019-03-14 14:19:18.178 SFTP Server: default
+. 2019-03-14 14:19:18.178 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-14 14:19:18.178 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-14 14:19:18.178 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-14 14:19:18.178 DST mode: Unix
+. 2019-03-14 14:19:18.178 --------------------------------------------------------------------------
+. 2019-03-14 14:19:18.181 Looking up host "192.168.1.100" for SSH connection
+. 2019-03-14 14:19:18.182 Connecting to 192.168.1.100 port 22
+. 2019-03-14 14:19:18.187 We claim version: SSH-2.0-WinSCP_release_5.13.8
+. 2019-03-14 14:19:18.198 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+. 2019-03-14 14:19:18.198 Using SSH protocol version 2
+. 2019-03-14 14:19:18.198 Have a known host key of type ssh-ed25519
+. 2019-03-14 14:19:18.202 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-14 14:19:19.977 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-14 14:19:19.984 Host key fingerprint is:
+. 2019-03-14 14:19:19.984 ssh-ed25519 256 c7:13:c7:b4:9e:9c:af:44:e7:b8:ce:82:09:ce:9b:9f N8nk3Cdxtc+DFmitaH8n7+3ow8emZePIWSQf5jCyA4Y=
+. 2019-03-14 14:19:19.985 Host key matches cached key
+. 2019-03-14 14:19:19.986 Initialised AES-256 SDCTR client->server encryption
+. 2019-03-14 14:19:19.986 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2019-03-14 14:19:19.986 Initialised AES-256 SDCTR server->client encryption
+. 2019-03-14 14:19:19.986 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2019-03-14 14:19:20.027 Using username "clustrex".
+. 2019-03-14 14:19:20.030 Server offered these authentication methods: publickey,password
+. 2019-03-14 14:19:20.030 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2019-03-14 14:19:20.030 Using stored password.
+. 2019-03-14 14:19:20.031 Sent password
+. 2019-03-14 14:19:20.039 Access granted
+. 2019-03-14 14:19:20.039 Opening session as main channel
+. 2019-03-14 14:19:20.154 Opened main channel
+. 2019-03-14 14:19:20.157 Started a shell/command
+. 2019-03-14 14:19:20.158 --------------------------------------------------------------------------
+. 2019-03-14 14:19:20.158 Using SFTP protocol.
+. 2019-03-14 14:19:20.160 Doing startup conversation with host.
+> 2019-03-14 14:19:20.160 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2019-03-14 14:19:20.160 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2019-03-14 14:19:20.160 SFTP version 3 negotiated.
+. 2019-03-14 14:19:20.160 Unknown server extension posix-rename@openssh.com="1"
+. 2019-03-14 14:19:20.160 Supports statvfs@openssh.com extension version "2"
+. 2019-03-14 14:19:20.160 Unknown server extension fstatvfs@openssh.com="2"
+. 2019-03-14 14:19:20.160 Supports hardlink@openssh.com extension version "1"
+. 2019-03-14 14:19:20.160 Unknown server extension fsync@openssh.com="1"
+. 2019-03-14 14:19:20.160 We believe the server has signed timestamps bug
+. 2019-03-14 14:19:20.160 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2019-03-14 14:19:20.160 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2019-03-14 14:19:20.160 Getting current directory name.
+. 2019-03-14 14:19:20.160 Getting real path for '.'
+> 2019-03-14 14:19:20.160 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2019-03-14 14:19:20.164 Type: SSH_FXP_NAME, Size: 49, Number: 16
+. 2019-03-14 14:19:20.165 Real path is '/home/clustrex'
+. 2019-03-14 14:19:20.165 Startup conversation with host finished.
+< 2019-03-14 14:19:20.165 Script: Active session: [1] clustrex@192.168.1.100
+> 2019-03-14 14:19:20.169 Script: put "C:\Users\Murugesh\Desktop\Projects\winscp-sftp-script\"\*.csv "/tmp/"
+< 2019-03-14 14:19:20.170 Script: No file matching '*.csv' found.
+. 2019-03-14 14:19:20.171 Copying 0 files/directories to remote directory "/tmp/" - total size: 0
+. 2019-03-14 14:19:20.171   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2019-03-14 14:19:20.171   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2019-03-14 14:19:20.171   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2019-03-14 14:19:20.171 Getting real path for '/tmp/'
+> 2019-03-14 14:19:20.172 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2019-03-14 14:19:20.173 Type: SSH_FXP_NAME, Size: 29, Number: 272
+. 2019-03-14 14:19:20.173 Real path is '/tmp'
+. 2019-03-14 14:19:20.173 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+> 2019-03-14 14:19:20.175 Script: exit
+. 2019-03-14 14:19:20.176 Script: Exit code: 0
+. 2019-03-14 14:19:20.177 Closing connection.
+. 2019-03-14 14:19:20.177 Sending special code: 12
+. 2019-03-14 14:19:20.177 Sent EOF message

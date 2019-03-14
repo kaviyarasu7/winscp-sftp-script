@@ -1,0 +1,6 @@
+# Connect
+open sftp://%SFTP_USER%:%SFTP_PWD%@%SFTP_SERVER% 
+# Upload the files
+put %ROOT_DIR%\*.csv %SFTP_SERVER_PATH%
+# Exit WinSCP
+exit
